@@ -1,14 +1,18 @@
 import React, { useEffect, useMemo, useState, useRef } from "react";
+
 import {
   GoogleMap,
   useLoadScript,
   MarkerF,
-  Marker,
   Autocomplete,
   DirectionsRenderer,
+  InfoWindow,
 } from "@react-google-maps/api";
-import { bordeaux } from "../utils/axiosTool";
-import icon from "../assets/react.svg";
+import { poi } from "../utils/axiosTool";
+import calendar from "../assets/calendar.png";
+import station from "../assets/fuel.png";
+import mapStyles from "./mapStyles";
+import InfoWindoDetails from "./InfoWindoDetails";
 
 function Map() {
   const [map, setMap] = useState(/** @type google.maps.Map */ (null));
@@ -16,22 +20,27 @@ function Map() {
     googleMapsApiKey: import.meta.env.VITE_GOOGLE_TOKEN,
     libraries: ["places"],
   });
+
   const [location, setLocation] = useState({ origin: "", destination: "" });
   const [directionsResponse, setDirectionsResponse] = useState(null);
   const [distance, setDistance] = useState("");
   const [duration, setDuration] = useState("");
   const [data, setData] = useState([]);
-  const center = useMemo(() => ({ lat: 44.84, lng: -0.58 }), []);
   /** @type React.MutableRefObject<HTMLInputElement> */
   const originRef = useRef();
   /** @type React.MutableRefObject<HTMLInputElement> */
   const destinationRef = useRef();
+  const [events, setEvents] = useState([]);
+  const [stations, setStations] = useState([]);
+  const [selectedPoi, setSelectedPoi] = useState(null);
+  const center = useMemo(() => ({ lat: 44.837789, lng: -0.57918 }), []);
 
   useEffect(() => {
-    bordeaux.getEvents().then((result) => setData(result.records));
+    poi.getEvents().then((result) => setEvents(result.records));
+    poi.getStations().then((result) => setStations(result.records));
   }, []);
 
-  if (!isLoaded || !data) return <div>Loading...</div>;
+  if (!isLoaded || !events || !stations) return <div>Loading...</div>;
 
   const handleChange = (e) => {
     setLocation({
@@ -74,21 +83,63 @@ function Map() {
           width: "100%",
         }}
         onLoad={(map) => setMap(map)}>
-        <Marker position={center} />
-        {data.map((poi) => (
+        {events.map((poi) => (
           <MarkerF
-            key={map.index}
+            key={poi.recordid}
+            onClick={() => {
+              setSelectedPoi({
+                poi: poi,
+                type: "event",
+                lat: poi.fields.location_coordinates[0],
+                lng: poi.fields.location_coordinates[1],
+              });
+            }}
             position={{
-              lat: poi.geometry.coordinates[1],
-              lng: poi.geometry.coordinates[0],
+              lat: poi.fields.location_coordinates[0],
+              lng: poi.fields.location_coordinates[1],
             }}
             icon={{
-              url: icon,
+              url: calendar,
               fillColor: "#EB00FF",
               scale: 5,
             }}
           />
         ))}
+        {stations.map((poi) => (
+          <MarkerF
+            key={poi.recordid}
+            onClick={() => {
+              setSelectedPoi({
+                poi: poi,
+                type: "station",
+                lat: poi.fields.geom[0],
+                lng: poi.fields.geom[1],
+              });
+            }}
+            position={{
+              lat: poi.fields.geom[0],
+              lng: poi.fields.geom[1],
+            }}
+            icon={{
+              url: station,
+              fillColor: "#EB00FF",
+              scale: 5,
+            }}
+          />
+        ))}
+
+        {selectedPoi && (
+          <InfoWindow
+            onCloseClick={() => {
+              setSelectedPoi(null);
+            }}
+            position={{
+              lat: selectedPoi.lat,
+              lng: selectedPoi.lng,
+            }}>
+            <InfoWindoDetails poi={selectedPoi} />
+          </InfoWindow>
+        )}
         {directionsResponse && (
           <DirectionsRenderer directions={directionsResponse} />
         )}
