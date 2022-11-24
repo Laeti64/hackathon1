@@ -1,24 +1,33 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
-import { anglet } from "../utils/axiosTool";
-import icon from "../assets/react.svg";
-
-console.log(import.meta.env.GOOGLE_TOKEN);
+import {
+  GoogleMap,
+  useLoadScript,
+  MarkerF,
+  InfoWindow,
+} from "@react-google-maps/api";
+import { poi } from "../utils/axiosTool";
+import calendar from "../assets/calendar.png";
+import station from "../assets/fuel.png";
+import mapStyles from "./mapStyles";
+import InfoWindoDetails from "./InfoWindoDetails";
 
 function Map() {
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: import.meta.env.VITE_GOOGLE_TOKEN,
   });
 
-  const [data, setData] = useState([]);
+  const [events, setEvents] = useState([]);
+  const [stations, setStations] = useState([]);
+  const [selectedPoi, setSelectedPoi] = useState(null);
 
-  const center = useMemo(() => ({ lat: 43.5, lng: -1.5 }), []);
+  const center = useMemo(() => ({ lat: 44.837789, lng: -0.57918 }), []);
 
   useEffect(() => {
-    anglet.getParking().then((result) => setData(result.records));
+    poi.getEvents().then((result) => setEvents(result.records));
+    poi.getStations().then((result) => setStations(result.records));
   }, []);
 
-  if (!isLoaded || !data) return <div>Loading...</div>;
+  if (!isLoaded || !events || !stations) return <div>Loading...</div>;
 
   return (
     <>
@@ -29,20 +38,67 @@ function Map() {
           height: "70vh",
           width: "100%",
         }}
+        options={{ styles: mapStyles }}
       >
-        {data.map((poi) => (
+        {events.map((poi) => (
           <MarkerF
+            key={poi.recordid}
+            onClick={() => {
+              setSelectedPoi({
+                poi: poi,
+                type: "event",
+                lat: poi.fields.location_coordinates[0],
+                lng: poi.fields.location_coordinates[1],
+              });
+            }}
             position={{
-              lat: poi.geometry.coordinates[1],
-              lng: poi.geometry.coordinates[0],
+              lat: poi.fields.location_coordinates[0],
+              lng: poi.fields.location_coordinates[1],
             }}
             icon={{
-              url: icon,
+              url: calendar,
               fillColor: "#EB00FF",
               scale: 5,
             }}
           />
         ))}
+
+        {stations.map((poi) => (
+          <MarkerF
+            key={poi.recordid}
+            onClick={() => {
+              setSelectedPoi({
+                poi: poi,
+                type: "station",
+                lat: poi.fields.geom[0],
+                lng: poi.fields.geom[1],
+              });
+            }}
+            position={{
+              lat: poi.fields.geom[0],
+              lng: poi.fields.geom[1],
+            }}
+            icon={{
+              url: station,
+              fillColor: "#EB00FF",
+              scale: 5,
+            }}
+          />
+        ))}
+
+        {selectedPoi && (
+          <InfoWindow
+            onCloseClick={() => {
+              setSelectedPoi(null);
+            }}
+            position={{
+              lat: selectedPoi.lat,
+              lng: selectedPoi.lng,
+            }}
+          >
+            <InfoWindoDetails poi={selectedPoi} />
+          </InfoWindow>
+        )}
       </GoogleMap>
     </>
   );
