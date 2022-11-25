@@ -31,6 +31,7 @@ function Map() {
   ];
 
   const center = useMemo(() => ({ lat: 44.837789, lng: -0.57918 }), []);
+
   const [location, setLocation] = useState({ origin: "", destination: "" });
   const [directionsResponse, setDirectionsResponse] = useState(null);
   const [distance, setDistance] = useState("");
@@ -45,6 +46,7 @@ function Map() {
   const [espaces, setEspaces] = useState([]);
   const [stations, setStations] = useState([]);
   const [selectedPoi, setSelectedPoi] = useState(null);
+
 
   const [poiDisplayed, setPoiDisplayed] = useState({
     events: false,
@@ -77,6 +79,37 @@ function Map() {
   if (!isLoaded || !events || !stations || !velos) return <div>Loading...</div>;
 
   const handleChangeInput = (e) => {
+    setLocation({
+      ...location,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const calculateRoute = async () => {
+    if (originRef.current.value === "" || destinationRef.current.value === "") {
+      return;
+    }
+    const directionsService = new google.maps.DirectionsService();
+    const results = await directionsService.route({
+      origin: originRef.current.value,
+      destination: destinationRef.current.value,
+      travelMode: google.maps.TravelMode.DRIVING,
+    });
+    setDirectionsResponse(results);
+    setDistance(results.routes[0].legs[0].distance.text);
+    setDuration(results.routes[0].legs[0].duration.value);
+  };
+
+  function clearRoute() {
+    setDirectionsResponse(null);
+    setDistance("");
+    setDuration("");
+    originRef.current.value = "";
+    destinationRef.current.value = "";
+    window.location.reload(false);
+  }
+
+  const handleChange = (e) => {
     setLocation({
       ...location,
       [e.target.name]: e.target.value,
