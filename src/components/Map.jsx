@@ -7,16 +7,17 @@ import {
   Autocomplete,
   DirectionsRenderer,
   InfoWindow,
-} from '@react-google-maps/api';
-import { poi } from '../utils/axiosTool';
-import calendar from '../assets/calendar.png';
-import station from '../assets/fuel.png';
-import coeur from '../assets/coeur.png';
-import bike from '../assets/bike.png';
-import espace from '../assets/espace.png';
-import mapStyles from './mapStyles';
-import InfoWindoDetails from './InfoWindoDetails';
-import Formulaire from './Formulaire';
+} from "@react-google-maps/api";
+import { poi } from "../utils/axiosTool";
+import calendar from "../assets/calendar.png";
+import station from "../assets/fuel.png";
+import coeur from "../assets/coeur.png";
+import bike from "../assets/bike.png";
+import espace from "../assets/espace.png";
+import trot from "../assets/trot.png";
+import mapStyles from "./mapStyles";
+import InfoWindoDetails from "./InfoWindoDetails";
+import Formulaire from "./Formulaire";
 
 function Map() {
   const [map, setMap] = useState(/** @type google.maps.Map */ (null));
@@ -26,10 +27,11 @@ function Map() {
   });
 
   const poiTypes = [
-    { label: 'Events', value: 'events' },
-    { label: 'Stations', value: 'stations' },
-    { label: 'Velos', value: 'velos' },
-    { label: 'Espaces verts', value: 'espaces' },
+    { label: "Events", value: "events" },
+    { label: "Stations", value: "stations" },
+    { label: "Velos", value: "velos" },
+    { label: "Espaces verts", value: "espaces" },
+    { label: "Trottinettes", value: "trots" },
   ];
 
   const center = useMemo(() => ({ lat: 44.837789, lng: -0.57918 }), []);
@@ -49,7 +51,13 @@ function Map() {
   const [velos, setVelos] = useState([]);
   const [espaces, setEspaces] = useState([]);
   const [stations, setStations] = useState([]);
+  const [trots, setTrots] = useState([]);
   const [selectedPoi, setSelectedPoi] = useState(null);
+
+  const [theme, setTheme] = useState(false);
+
+  const styleRef = useRef();
+
   const [position, setPosition] = useState({
     latit: 0,
     longit: 0,
@@ -58,11 +66,13 @@ function Map() {
   const [favourites, setFavorites] = useState([]);
   const favouritesList = JSON.parse(localStorage.getItem('Favourites'));
 
+
   const [poiDisplayed, setPoiDisplayed] = useState({
     events: false,
     stations: false,
     velos: false,
     espaces: false,
+    trots: false,
   });
 
   async function getJSON(jsonFile) {
@@ -83,10 +93,14 @@ function Map() {
     poi.getEvents().then((result) => setEvents(result.records));
     poi.getStations().then((result) => setStations(result.records));
     poi.getEspaces().then((result) => setEspaces(result.records));
-    getJSON('../data/stations_vcub.json').then((result) => setVelos(result));
+    getJSON("../data/stations_vcub.json").then((result) => setVelos(result));
+    getJSON("../data/trot.json").then((result) =>
+      setTrots(result[0].data.stations)
+    );
   }, []);
 
-  if (!isLoaded || !events || !stations || !velos) return <div>Loading...</div>;
+  if (!isLoaded || !events || !stations || !velos || !trots)
+    return <div>Loading...</div>;
 
   const handleChangeInput = (e) => {
     console.log(e.target.value);
@@ -94,6 +108,10 @@ function Map() {
       ...location,
       [e.target.name]: e.target.value,
     });
+  };
+
+  const handleChangeTheme = (e) => {
+    setTheme(!theme);
   };
 
   const calculateRoute = async () => {
@@ -195,10 +213,10 @@ function Map() {
           zoom={12}
           center={center}
           onLoad={(map) => setMap(map)}
-          options={{ styles: mapStyles }}
+          options={{ styles: theme ? mapStyles[0] : mapStyles[1] }}
           mapContainerStyle={{
-            height: '70vh',
-            width: '100%',
+            height: "70vh",
+            width: "100%",
           }}
         >
           {poiDisplayed.events &&
@@ -321,6 +339,11 @@ function Map() {
 
           {showFormulaire && (
             <MarkerF
+              key={position.latit}
+              position={{
+                lat: position.latit,
+                lng: position.longit,
+              }}
               icon={{
                 url: coeur,
                 fillColor: '#EB00FF',
@@ -328,6 +351,30 @@ function Map() {
               }}
             />
           )}
+
+          {poiDisplayed.trots &&
+            trots.map((poi) => (
+              <MarkerF
+                key={poi.station_id}
+                onClick={() => {
+                  setSelectedPoi({
+                    poi: poi,
+                    type: "trot",
+                    lat: poi.lat,
+                    lng: poi.lon,
+                  });
+                }}
+                position={{
+                  lat: poi.lat,
+                  lng: poi.lon,
+                }}
+                icon={{
+                  url: trot,
+                  fillColor: "#EB00FF",
+                  scale: 5,
+                }}
+              />
+            ))}
 
           {selectedPoi && (
             <InfoWindow
@@ -403,6 +450,14 @@ function Map() {
           >
             🌐
           </button>
+        </div>
+        <div className="h-15 py-3 flex justify-around align-middle bg-slate-300 rounded-xl p-4">
+          <input
+            type="checkbox"
+            defaultChecked={false}
+            onChange={handleChangeTheme}
+          />
+          Autre thème
         </div>
       </div>
     </>
