@@ -19,6 +19,9 @@ function InfoWindoDetails({ poi }) {
     return (
       <div className="w-40 h-20">
         <h1>{poi.poi.key}</h1>
+      </div>
+    );
+
   if (poi.type === "velo")
     return (
       <div className="w-40 h-20">

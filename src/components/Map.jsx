@@ -126,39 +126,7 @@ function Map() {
   };
   console.log(selectedPoi);
   return (
-    <>      
-      <GoogleMap
-        zoom={12}
-        center={center}
-        mapContainerStyle={{
-          height: "70vh",
-          width: "100%",
-        }}
-        options={{ styles: mapStyles }}
-        onClick={addMarker}
-      >
-        {events.map((poi) => (
-          <MarkerF
-            key={poi.recordid}
-            onClick={() => {
-              setSelectedPoi({
-                poi: poi,
-                type: "event",
-                lat: poi.fields.location_coordinates[0],
-                lng: poi.fields.location_coordinates[1],
-              });
-            }}
-            position={{
-              lat: poi.fields.location_coordinates[0],
-              lng: poi.fields.location_coordinates[1],
-            }}
-            icon={{
-              url: calendar,
-              fillColor: "#EB00FF",
-              scale: 5,
-            }}
-          />
-
+    <>
       <div>
         {poiTypes.map((type, index) => (
           <label key={index}>
@@ -170,20 +138,22 @@ function Map() {
               onChange={handleChange}
             />
           </label>
+        ))}
       </div>
 
       <div className="flex flex-col">
         {showFormulaire && (
-        <Formulaire
-          lat={position.latit}
-          lng={position.longit}
-          favourites={favourites}
-          setFavorites={setFavorites}
-          showFormulaire={showFormulaire}
-          setShowFormulaire={setShowFormulaire}
-        />
-      )}
+          <Formulaire
+            lat={position.latit}
+            lng={position.longit}
+            favourites={favourites}
+            setFavorites={setFavorites}
+            showFormulaire={showFormulaire}
+            setShowFormulaire={setShowFormulaire}
+          />
+        )}
         <GoogleMap
+          onClick={addMarker}
           zoom={12}
           center={center}
           onLoad={(map) => setMap(map)}
@@ -287,16 +257,37 @@ function Map() {
                 }}
               />
             ))}
+          {favouritesList &&
+            favouritesList.map((poi) => (
+              <MarkerF
+                key={poi.key}
+                onClick={() => {
+                  setSelectedPoi({
+                    poi: poi,
+                    type: "favori",
+                  });
+                }}
+                position={{
+                  lat: poi.lat,
+                  lng: poi.lng,
+                }}
+                icon={{
+                  url: coeur,
+                  fillColor: "#EB00FF",
+                  scale: 5,
+                }}
+              />
+            ))}
 
- {showFormulaire && (
-          <MarkerF
-            icon={{
-              url: coeur,
-              fillColor: "#EB00FF",
-              scale: 5,
-            }}
-          />
-        )}
+          {showFormulaire && (
+            <MarkerF
+              icon={{
+                url: coeur,
+                fillColor: "#EB00FF",
+                scale: 5,
+              }}
+            />
+          )}
 
           {selectedPoi && (
             <InfoWindow
@@ -304,13 +295,14 @@ function Map() {
                 setSelectedPoi(null);
               }}
               position={{
-                lat: selectedPoi.lat,
-                lng: selectedPoi.lng,
+                lat: selectedPoi.poi.lat,
+                lng: selectedPoi.poi.lng,
               }}
             >
               <InfoWindoDetails poi={selectedPoi} />
             </InfoWindow>
           )}
+
           {directionsResponse && (
             <DirectionsRenderer directions={directionsResponse} />
           )}
