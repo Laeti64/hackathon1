@@ -11,10 +11,12 @@ import {
 import { poi } from "../utils/axiosTool";
 import calendar from "../assets/calendar.png";
 import station from "../assets/fuel.png";
+import coeur from "../assets/coeur.png";
 import bike from "../assets/bike.png";
 import espace from "../assets/espace.png";
 import mapStyles from "./mapStyles";
 import InfoWindoDetails from "./InfoWindoDetails";
+import Formulaire from "./Formulaire";
 
 function Map() {
   const [map, setMap] = useState(/** @type google.maps.Map */ (null));
@@ -46,6 +48,13 @@ function Map() {
   const [espaces, setEspaces] = useState([]);
   const [stations, setStations] = useState([]);
   const [selectedPoi, setSelectedPoi] = useState(null);
+  const [position, setPosition] = useState({
+    latit: 0,
+    longit: 0,
+  });
+  const [showFormulaire, setShowFormulaire] = useState(false);
+  const [favourites, setFavorites] = useState([]);
+  const favouritesList = JSON.parse(localStorage.getItem("Favourites"));
 
   const [poiDisplayed, setPoiDisplayed] = useState({
     events: false,
@@ -108,8 +117,48 @@ function Map() {
     window.location.reload(false);
   }
 
+  const addMarker = (position) => {
+    setPosition({
+      latit: parseFloat(position.latLng.lat()),
+      longit: parseFloat(position.latLng.lng()),
+    });
+    setShowFormulaire(true);
+  };
+  console.log(selectedPoi);
   return (
-    <>
+    <>      
+      <GoogleMap
+        zoom={12}
+        center={center}
+        mapContainerStyle={{
+          height: "70vh",
+          width: "100%",
+        }}
+        options={{ styles: mapStyles }}
+        onClick={addMarker}
+      >
+        {events.map((poi) => (
+          <MarkerF
+            key={poi.recordid}
+            onClick={() => {
+              setSelectedPoi({
+                poi: poi,
+                type: "event",
+                lat: poi.fields.location_coordinates[0],
+                lng: poi.fields.location_coordinates[1],
+              });
+            }}
+            position={{
+              lat: poi.fields.location_coordinates[0],
+              lng: poi.fields.location_coordinates[1],
+            }}
+            icon={{
+              url: calendar,
+              fillColor: "#EB00FF",
+              scale: 5,
+            }}
+          />
+
       <div>
         {poiTypes.map((type, index) => (
           <label key={index}>
@@ -121,10 +170,19 @@ function Map() {
               onChange={handleChange}
             />
           </label>
-        ))}
       </div>
 
       <div className="flex flex-col">
+        {showFormulaire && (
+        <Formulaire
+          lat={position.latit}
+          lng={position.longit}
+          favourites={favourites}
+          setFavorites={setFavorites}
+          showFormulaire={showFormulaire}
+          setShowFormulaire={setShowFormulaire}
+        />
+      )}
         <GoogleMap
           zoom={12}
           center={center}
@@ -229,6 +287,16 @@ function Map() {
                 }}
               />
             ))}
+
+ {showFormulaire && (
+          <MarkerF
+            icon={{
+              url: coeur,
+              fillColor: "#EB00FF",
+              scale: 5,
+            }}
+          />
+        )}
 
           {selectedPoi && (
             <InfoWindow

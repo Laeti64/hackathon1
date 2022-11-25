@@ -15,6 +15,10 @@ function InfoWindoDetails({ poi }) {
         <p>{poi.poi.fields.services_service}</p>
       </div>
     );
+  if (poi.type === "favori")
+    return (
+      <div className="w-40 h-20">
+        <h1>{poi.poi.key}</h1>
   if (poi.type === "velo")
     return (
       <div className="w-40 h-20">
