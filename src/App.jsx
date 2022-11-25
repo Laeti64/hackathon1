@@ -2,7 +2,7 @@ import Map from './components/Map';
 
 function App() {
   return (
-    <div className=" bg-gradient-to-r from-slate-400  via-slate-300 to-slate-400 h-screen w-screen">
+    <div className=" bg-gradient-to-r from-slate-400  via-slate-300 to-slate-400 h-full w-screen">
       <Map />
     </div>
   );
