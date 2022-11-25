@@ -22,7 +22,7 @@ export const poi = {
   getTrotinettes: async () =>
     (
       await axiosInstance.get(
-        "https://www.data.gouv.fr/fr/datasets/trottinettes-bird-bordeaux"
+        "https://mds.bird.co/gbfs/v2/public/bordeaux/station_information.json"
       )
     ).data,
 };
