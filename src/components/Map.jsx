@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState, useRef } from "react";
+import React, { useEffect, useMemo, useState, useRef } from 'react';
 
 import {
   GoogleMap,
@@ -7,39 +7,39 @@ import {
   Autocomplete,
   DirectionsRenderer,
   InfoWindow,
-} from "@react-google-maps/api";
-import { poi } from "../utils/axiosTool";
-import calendar from "../assets/calendar.png";
-import station from "../assets/fuel.png";
-import coeur from "../assets/coeur.png";
-import bike from "../assets/bike.png";
-import espace from "../assets/espace.png";
-import mapStyles from "./mapStyles";
-import InfoWindoDetails from "./InfoWindoDetails";
-import Formulaire from "./Formulaire";
+} from '@react-google-maps/api';
+import { poi } from '../utils/axiosTool';
+import calendar from '../assets/calendar.png';
+import station from '../assets/fuel.png';
+import coeur from '../assets/coeur.png';
+import bike from '../assets/bike.png';
+import espace from '../assets/espace.png';
+import mapStyles from './mapStyles';
+import InfoWindoDetails from './InfoWindoDetails';
+import Formulaire from './Formulaire';
 
 function Map() {
   const [map, setMap] = useState(/** @type google.maps.Map */ (null));
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: import.meta.env.VITE_GOOGLE_TOKEN,
-    libraries: ["places"],
+    libraries: ['places'],
   });
 
   const poiTypes = [
-    { label: "Events", value: "events" },
-    { label: "Stations", value: "stations" },
-    { label: "Velos", value: "velos" },
-    { label: "Espaces verts", value: "espaces" },
+    { label: 'Events', value: 'events' },
+    { label: 'Stations', value: 'stations' },
+    { label: 'Velos', value: 'velos' },
+    { label: 'Espaces verts', value: 'espaces' },
   ];
 
   const center = useMemo(() => ({ lat: 44.837789, lng: -0.57918 }), []);
 
-  const [location, setLocation] = useState({ origin: "", destination: "" });
+  const [location, setLocation] = useState({ origin: '', destination: '' });
   const [directionsResponse, setDirectionsResponse] = useState(null);
-  const [distance, setDistance] = useState("");
-  const [duration, setDuration] = useState("");
+  const [distance, setDistance] = useState('');
+  const [duration, setDuration] = useState('');
 
-  const [searchResult, setSearchResult] = useState("");
+  const [searchResult, setSearchResult] = useState('');
   const autocompleteRef = useRef();
   /** @type React.MutableRefObject<HTMLInputElement> */
   const originRef = useRef();
@@ -56,7 +56,7 @@ function Map() {
   });
   const [showFormulaire, setShowFormulaire] = useState(false);
   const [favourites, setFavorites] = useState([]);
-  const favouritesList = JSON.parse(localStorage.getItem("Favourites"));
+  const favouritesList = JSON.parse(localStorage.getItem('Favourites'));
 
   const [poiDisplayed, setPoiDisplayed] = useState({
     events: false,
@@ -83,7 +83,7 @@ function Map() {
     poi.getEvents().then((result) => setEvents(result.records));
     poi.getStations().then((result) => setStations(result.records));
     poi.getEspaces().then((result) => setEspaces(result.records));
-    getJSON("../data/stations_vcub.json").then((result) => setVelos(result));
+    getJSON('../data/stations_vcub.json').then((result) => setVelos(result));
   }, []);
 
   if (!isLoaded || !events || !stations || !velos) return <div>Loading...</div>;
@@ -97,7 +97,7 @@ function Map() {
   };
 
   const calculateRoute = async () => {
-    if (originRef.current.value === "" || destinationRef.current.value === "") {
+    if (originRef.current.value === '' || destinationRef.current.value === '') {
       return;
     }
     const directionsService = new google.maps.DirectionsService();
@@ -113,10 +113,10 @@ function Map() {
 
   function clearRoute() {
     setDirectionsResponse(null);
-    setDistance("");
-    setDuration("");
-    originRef.current.value = "";
-    destinationRef.current.value = "";
+    setDistance('');
+    setDuration('');
+    originRef.current.value = '';
+    destinationRef.current.value = '';
     () => calculateRoute();
   }
 
@@ -135,7 +135,7 @@ function Map() {
         destination: name,
       }));
     } else {
-      alert("Please enter text");
+      alert('Please enter text');
     }
   }
 
@@ -150,7 +150,7 @@ function Map() {
         origin: name,
       }));
     } else {
-      alert("Please enter text");
+      alert('Please enter text');
     }
   }
 
@@ -164,11 +164,12 @@ function Map() {
   console.log(favouritesList, selectedPoi);
   return (
     <>
-      <div>
+      <div className="p-4">
         {poiTypes.map((type, index) => (
-          <label key={index}>
+          <label className="mr-3" key={index}>
             {type.label}:
             <input
+              className="ml-1"
               value={type.value}
               type="checkbox"
               defaultChecked={false}
@@ -178,7 +179,7 @@ function Map() {
         ))}
       </div>
 
-      <div className="flex flex-col">
+      <div className="flex flex-col ">
         {showFormulaire && (
           <Formulaire
             lat={position.latit}
@@ -196,9 +197,10 @@ function Map() {
           onLoad={(map) => setMap(map)}
           options={{ styles: mapStyles }}
           mapContainerStyle={{
-            height: "70vh",
-            width: "100%",
-          }}>
+            height: '70vh',
+            width: '100%',
+          }}
+        >
           {poiDisplayed.events &&
             events.map((poi) => (
               <MarkerF
@@ -206,7 +208,7 @@ function Map() {
                 onClick={() => {
                   setSelectedPoi({
                     poi: poi,
-                    type: "event",
+                    type: 'event',
                     lat: poi.fields.location_coordinates[0],
                     lng: poi.fields.location_coordinates[1],
                   });
@@ -217,7 +219,7 @@ function Map() {
                 }}
                 icon={{
                   url: calendar,
-                  fillColor: "#EB00FF",
+                  fillColor: '#EB00FF',
                   scale: 5,
                 }}
               />
@@ -229,7 +231,7 @@ function Map() {
                 onClick={() => {
                   setSelectedPoi({
                     poi: poi,
-                    type: "station",
+                    type: 'station',
                     lat: poi.fields.geom[0],
                     lng: poi.fields.geom[1],
                   });
@@ -240,7 +242,7 @@ function Map() {
                 }}
                 icon={{
                   url: station,
-                  fillColor: "#EB00FF",
+                  fillColor: '#EB00FF',
                   scale: 5,
                 }}
               />
@@ -253,7 +255,7 @@ function Map() {
                 onClick={() => {
                   setSelectedPoi({
                     poi: poi,
-                    type: "velo",
+                    type: 'velo',
                     lat: poi.fields.geo_point_2d[0],
                     lng: poi.fields.geo_point_2d[1],
                   });
@@ -264,7 +266,7 @@ function Map() {
                 }}
                 icon={{
                   url: bike,
-                  fillColor: "#EB00FF",
+                  fillColor: '#EB00FF',
                   scale: 5,
                 }}
               />
@@ -277,7 +279,7 @@ function Map() {
                 onClick={() => {
                   setSelectedPoi({
                     poi: poi,
-                    type: "espace",
+                    type: 'espace',
                     lat: poi.fields.geo_point_2d[0],
                     lng: poi.fields.geo_point_2d[1],
                   });
@@ -288,7 +290,7 @@ function Map() {
                 }}
                 icon={{
                   url: espace,
-                  fillColor: "#EB00FF",
+                  fillColor: '#EB00FF',
                   scale: 5,
                 }}
               />
@@ -300,7 +302,7 @@ function Map() {
                 onClick={() => {
                   setSelectedPoi({
                     poi: poi,
-                    type: "favori",
+                    type: 'favori',
                     lat: poi.lat,
                     lng: poi.lng,
                   });
@@ -311,7 +313,7 @@ function Map() {
                 }}
                 icon={{
                   url: coeur,
-                  fillColor: "#EB00FF",
+                  fillColor: '#EB00FF',
                   scale: 5,
                 }}
               />
@@ -321,7 +323,7 @@ function Map() {
             <MarkerF
               icon={{
                 url: coeur,
-                fillColor: "#EB00FF",
+                fillColor: '#EB00FF',
                 scale: 5,
               }}
             />
@@ -335,7 +337,8 @@ function Map() {
               position={{
                 lat: selectedPoi.lat,
                 lng: selectedPoi.lng,
-              }}>
+              }}
+            >
               <InfoWindoDetails poi={selectedPoi} />
             </InfoWindow>
           )}
@@ -345,14 +348,15 @@ function Map() {
           )}
         </GoogleMap>
         <div>
-          <div className="w-full  h-30 flex flex-col bg-slate-300 rounded-xl p-4">
+          <div className="w-full  h-30 flex flex-col  p-4">
             <div className="h-15 flex justify-around">
               <Autocomplete
                 onPlaceChanged={onOriginChanged}
                 onLoad={onLoad}
-                className="w-2/5 mx-1">
+                className="w-2/5 mx-1"
+              >
                 <input
-                  className="h-10 w-full rounded-md"
+                  className="h-10 w-full pl-2 rounded-md"
                   type="text"
                   name="origin"
                   ref={originRef}
@@ -361,7 +365,7 @@ function Map() {
               </Autocomplete>
               <Autocomplete className="w-2/5 mx-1">
                 <input
-                  className="h-10 w-full rounded-md"
+                  className="h-10 w-full pl-2 rounded-md"
                   type="text"
                   name="destination"
                   ref={destinationRef}
@@ -370,30 +374,33 @@ function Map() {
                 />
               </Autocomplete>
               <button
-                className="w-10 h-10 mx-1 bg-pink-500 rounded-2xl text"
+                className="w-10 h-10 mx-1 bg-green-500 rounded-2xl text"
                 type="submit"
-                onClick={() => calculateRoute()}>
+                onClick={() => calculateRoute()}
+              >
                 GO
               </button>
               <button
-                className="w-10 h-10 mx-1 bg-pink-500 rounded-2xl text"
+                className="w-10 h-10 mx-1 bg-red-500 rounded-2xl text"
                 type="submit"
-                onClick={() => clearRoute()}>
+                onClick={() => clearRoute()}
+              >
                 ✖️
               </button>
             </div>
           </div>
         </div>
-        <div className="h-15 py-3 flex justify-around align-middle w-full bg-slate-300 rounded-xl p-4">
+        <div className="h-15 py-3 flex justify-around align-middle w-full   p-4">
           <p>Distance : {distance}</p>
-          <p>Duration : {duration && Math.round(duration / 60) + "min"}</p>
+          <p>Duration : {duration && Math.round(duration / 60) + 'min'}</p>
           <button
             className="pl-3 w-10 h-10 bg-grey-200 rounded-2xl text"
             type=""
             onClick={() => {
               map.panTo(center);
               map.setZoom(12);
-            }}>
+            }}
+          >
             🌐
           </button>
         </div>
