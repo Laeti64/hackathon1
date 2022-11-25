@@ -124,7 +124,7 @@ function Map() {
     });
     setShowFormulaire(true);
   };
-  console.log(selectedPoi);
+  console.log(favouritesList, selectedPoi);
   return (
     <>
       <div>
@@ -265,6 +265,8 @@ function Map() {
                   setSelectedPoi({
                     poi: poi,
                     type: "favori",
+                    lat: poi.lat,
+                    lng: poi.lng,
                   });
                 }}
                 position={{
@@ -295,8 +297,8 @@ function Map() {
                 setSelectedPoi(null);
               }}
               position={{
-                lat: selectedPoi.poi.lat,
-                lng: selectedPoi.poi.lng,
+                lat: selectedPoi.lat,
+                lng: selectedPoi.lng,
               }}
             >
               <InfoWindoDetails poi={selectedPoi} />
