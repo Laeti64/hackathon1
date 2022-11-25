@@ -52,11 +52,17 @@ function Formulaire({
           <p>Please name it:</p>
           <div className="mx-5">
             <input
+              className="border border-gray-400 rounded-lg px-2"
               ref={input}
               onChange={(e) => console.log(e)}
               placeholder="Favourite name"
             />
-            <button onClick={addFavorite}>validate</button>
+            <button
+              className="border border-black my-2 px-2 rounded-lg"
+              onClick={addFavorite}
+            >
+              validate
+            </button>
           </div>
         </form>
       )}

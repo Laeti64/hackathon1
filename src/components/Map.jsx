@@ -216,7 +216,8 @@ function Map() {
           mapContainerStyle={{
             height: "70vh",
             width: "100%",
-          }}>
+          }}
+        >
           {poiDisplayed.events &&
             events.map((poi) => (
               <MarkerF
@@ -337,6 +338,11 @@ function Map() {
 
           {showFormulaire && (
             <MarkerF
+              key={position.latit}
+              position={{
+                lat: position.latit,
+                lng: position.longit,
+              }}
               icon={{
                 url: coeur,
                 fillColor: "#EB00FF",
@@ -377,7 +383,8 @@ function Map() {
               position={{
                 lat: selectedPoi.lat,
                 lng: selectedPoi.lng,
-              }}>
+              }}
+            >
               <InfoWindoDetails poi={selectedPoi} />
             </InfoWindow>
           )}
@@ -392,7 +399,8 @@ function Map() {
               <Autocomplete
                 onPlaceChanged={onOriginChanged}
                 onLoad={onLoad}
-                className="w-2/5 mx-1">
+                className="w-2/5 mx-1"
+              >
                 <input
                   className="h-10 w-full rounded-md"
                   type="text"
@@ -414,13 +422,15 @@ function Map() {
               <button
                 className="w-10 h-10 mx-1 bg-pink-500 rounded-2xl text"
                 type="submit"
-                onClick={() => calculateRoute()}>
+                onClick={() => calculateRoute()}
+              >
                 GO
               </button>
               <button
                 className="w-10 h-10 mx-1 bg-pink-500 rounded-2xl text"
                 type="submit"
-                onClick={() => clearRoute()}>
+                onClick={() => clearRoute()}
+              >
                 ✖️
               </button>
             </div>
@@ -435,7 +445,8 @@ function Map() {
             onClick={() => {
               map.panTo(center);
               map.setZoom(12);
-            }}>
+            }}
+          >
             🌐
           </button>
         </div>
