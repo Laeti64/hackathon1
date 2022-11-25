@@ -108,7 +108,7 @@ function Map() {
     setDuration("");
     originRef.current.value = "";
     destinationRef.current.value = "";
-    window.location.reload(false);
+    () => calculateRoute();
   }
 
   function onLoad(autocomplete) {
@@ -121,15 +121,6 @@ function Map() {
       const place = searchResult.getPlace();
       //variable to store the name from place details result
       const name = place.name;
-      //variable to store the status from place details result
-      const status = place.business_status;
-      //variable to store the formatted address from place details result
-      const formattedAddress = place.formatted_address;
-      console.log(place);
-      //console log all results
-      console.log(`Name: ${name}`);
-      console.log(`Business Status: ${status}`);
-      console.log(`Formatted Address: ${formattedAddress}`);
       setLocation((state) => ({
         ...state,
         destination: name,
@@ -145,15 +136,6 @@ function Map() {
       const place = searchResult.getPlace();
       //variable to store the name from place details result
       const name = place.name;
-      //variable to store the status from place details result
-      const status = place.business_status;
-      //variable to store the formatted address from place details result
-      const formattedAddress = place.formatted_address;
-      console.log(place);
-      //console log all results
-      console.log(`Name: ${name}`);
-      console.log(`Business Status: ${status}`);
-      console.log(`Formatted Address: ${formattedAddress}`);
       setLocation((state) => ({
         ...state,
         origin: name,
