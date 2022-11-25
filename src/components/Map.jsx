@@ -47,7 +47,6 @@ function Map() {
   const [stations, setStations] = useState([]);
   const [selectedPoi, setSelectedPoi] = useState(null);
 
-
   const [poiDisplayed, setPoiDisplayed] = useState({
     events: false,
     stations: false,
@@ -109,37 +108,6 @@ function Map() {
     window.location.reload(false);
   }
 
-  const handleChange = (e) => {
-    setLocation({
-      ...location,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const calculateRoute = async () => {
-    if (originRef.current.value === "" || destinationRef.current.value === "") {
-      return;
-    }
-    const directionsService = new google.maps.DirectionsService();
-    const results = await directionsService.route({
-      origin: originRef.current.value,
-      destination: destinationRef.current.value,
-      travelMode: google.maps.TravelMode.DRIVING,
-    });
-    setDirectionsResponse(results);
-    setDistance(results.routes[0].legs[0].distance.text);
-    setDuration(results.routes[0].legs[0].duration.value);
-  };
-
-  function clearRoute() {
-    setDirectionsResponse(null);
-    setDistance("");
-    setDuration("");
-    originRef.current.value = "";
-    destinationRef.current.value = "";
-    window.location.reload(false);
-  }
-
   return (
     <>
       <div>
@@ -161,55 +129,106 @@ function Map() {
           zoom={12}
           center={center}
           onLoad={(map) => setMap(map)}
+          options={{ styles: mapStyles }}
           mapContainerStyle={{
             height: "70vh",
             width: "100%",
           }}
         >
-          {events.map((poi) => (
-            <MarkerF
-              key={poi.recordid}
-              onClick={() => {
-                setSelectedPoi({
-                  poi: poi,
-                  type: "event",
+          {poiDisplayed.events &&
+            events.map((poi) => (
+              <MarkerF
+                key={poi.recordid}
+                onClick={() => {
+                  setSelectedPoi({
+                    poi: poi,
+                    type: "event",
+                    lat: poi.fields.location_coordinates[0],
+                    lng: poi.fields.location_coordinates[1],
+                  });
+                }}
+                position={{
                   lat: poi.fields.location_coordinates[0],
                   lng: poi.fields.location_coordinates[1],
-                });
-              }}
-              position={{
-                lat: poi.fields.location_coordinates[0],
-                lng: poi.fields.location_coordinates[1],
-              }}
-              icon={{
-                url: calendar,
-                fillColor: "#EB00FF",
-                scale: 5,
-              }}
-            />
-          ))}
-          {stations.map((poi) => (
-            <MarkerF
-              key={poi.recordid}
-              onClick={() => {
-                setSelectedPoi({
-                  poi: poi,
-                  type: "station",
+                }}
+                icon={{
+                  url: calendar,
+                  fillColor: "#EB00FF",
+                  scale: 5,
+                }}
+              />
+            ))}
+          {poiDisplayed.stations &&
+            stations.map((poi) => (
+              <MarkerF
+                key={poi.recordid}
+                onClick={() => {
+                  setSelectedPoi({
+                    poi: poi,
+                    type: "station",
+                    lat: poi.fields.geom[0],
+                    lng: poi.fields.geom[1],
+                  });
+                }}
+                position={{
                   lat: poi.fields.geom[0],
                   lng: poi.fields.geom[1],
-                });
-              }}
-              position={{
-                lat: poi.fields.geom[0],
-                lng: poi.fields.geom[1],
-              }}
-              icon={{
-                url: station,
-                fillColor: "#EB00FF",
-                scale: 5,
-              }}
-            />
-          ))}
+                }}
+                icon={{
+                  url: station,
+                  fillColor: "#EB00FF",
+                  scale: 5,
+                }}
+              />
+            ))}
+
+          {poiDisplayed.velos &&
+            velos.map((poi) => (
+              <MarkerF
+                key={poi.recordid}
+                onClick={() => {
+                  setSelectedPoi({
+                    poi: poi,
+                    type: "velo",
+                    lat: poi.fields.geo_point_2d[0],
+                    lng: poi.fields.geo_point_2d[1],
+                  });
+                }}
+                position={{
+                  lat: poi.fields.geo_point_2d[0],
+                  lng: poi.fields.geo_point_2d[1],
+                }}
+                icon={{
+                  url: bike,
+                  fillColor: "#EB00FF",
+                  scale: 5,
+                }}
+              />
+            ))}
+
+          {poiDisplayed.espaces &&
+            espaces.map((poi) => (
+              <MarkerF
+                key={poi.recordid}
+                onClick={() => {
+                  setSelectedPoi({
+                    poi: poi,
+                    type: "espace",
+                    lat: poi.fields.geo_point_2d[0],
+                    lng: poi.fields.geo_point_2d[1],
+                  });
+                }}
+                position={{
+                  lat: poi.fields.geo_point_2d[0],
+                  lng: poi.fields.geo_point_2d[1],
+                }}
+                icon={{
+                  url: espace,
+                  fillColor: "#EB00FF",
+                  scale: 5,
+                }}
+              />
+            ))}
 
           {selectedPoi && (
             <InfoWindow
