@@ -1,0 +1,7482 @@
+[
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "70d07f4df05de9f304399804a1658bdbb1b30ad0",
+		"fields": {
+			"gml_id": "CI_VCUB_P.1",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83803,
+				-0.58437
+			],
+			"nbvelos": 10,
+			"geo_shape": {
+				"coordinates": [
+					-0.58437,
+					44.83803
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:43+01:00",
+			"nbplaces": 16,
+			"ident": 1,
+			"gid": 1,
+			"nom": "Meriadeck",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58437,
+				44.83803
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "1be7f01a25c0b488780b80e58c09d2fe043fec51",
+		"fields": {
+			"gml_id": "CI_VCUB_P.2",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83784,
+				-0.59028
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.59028,
+					44.83784
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:43+01:00",
+			"nbplaces": 12,
+			"ident": 2,
+			"gid": 2,
+			"nom": "St Bruno",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.59028,
+				44.83784
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "b0aa917e25fad93626f34b96f4775e0f7c4ae2c1",
+		"fields": {
+			"gml_id": "CI_VCUB_P.3",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.840813,
+				-0.593233
+			],
+			"nbvelos": 24,
+			"geo_shape": {
+				"coordinates": [
+					-0.593233,
+					44.840813
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:43+01:00",
+			"nbplaces": 1,
+			"ident": 3,
+			"gid": 3,
+			"nom": "Piscine Judaique",
+			"type": "VLS",
+			"nbelec": "14",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "10",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.593233,
+				44.840813
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d8c00d1ac03b23f0ccfeb22facb775cf08eec13a",
+		"fields": {
+			"gml_id": "CI_VCUB_P.4",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84221,
+				-0.58482
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.58482,
+					44.84221
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:43+01:00",
+			"nbplaces": 14,
+			"ident": 4,
+			"gid": 4,
+			"nom": "St Seurin",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58482,
+				44.84221
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "46a8ef8b52cf8d9cd5d3b4733d3b074e047c005d",
+		"fields": {
+			"gml_id": "CI_VCUB_P.5",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.840712,
+				-0.581124
+			],
+			"nbvelos": 25,
+			"geo_shape": {
+				"coordinates": [
+					-0.581124,
+					44.840712
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:43+01:00",
+			"nbplaces": 15,
+			"ident": 5,
+			"gid": 5,
+			"nom": "Place Gambetta",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "19",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.581124,
+				44.840712
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "7fe883ae215e574da91c00e843b12b4d4ef8580a",
+		"fields": {
+			"gml_id": "CI_VCUB_P.6",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83779,
+				-0.58166
+			],
+			"nbvelos": 13,
+			"geo_shape": {
+				"coordinates": [
+					-0.58166,
+					44.83779
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:43+01:00",
+			"nbplaces": 27,
+			"ident": 6,
+			"gid": 6,
+			"nom": "Square Andre Lhote",
+			"type": "VLS",
+			"nbelec": "7",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58166,
+				44.83779
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "1878938991823ae560799ea316c83bd4a43f920e",
+		"fields": {
+			"gml_id": "CI_VCUB_P.7",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83594,
+				-0.58211
+			],
+			"nbvelos": 11,
+			"geo_shape": {
+				"coordinates": [
+					-0.58211,
+					44.83594
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:43+01:00",
+			"nbplaces": 7,
+			"ident": 7,
+			"gid": 7,
+			"nom": "Palais de Justice",
+			"type": "VLS",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58211,
+				44.83594
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "2508d6b8f8d37f57722b8cfb99e2bf1aa6ee72f0",
+		"fields": {
+			"gml_id": "CI_VCUB_P.8",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83436,
+				-0.58825
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.58825,
+					44.83436
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:43+01:00",
+			"nbplaces": 12,
+			"ident": 8,
+			"gid": 8,
+			"nom": "Patinoire",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58825,
+				44.83436
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "6fc943cd65cbfdd376ca9c5b6c249870ea6f64e7",
+		"fields": {
+			"gml_id": "CI_VCUB_P.9",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83303,
+				-0.59289
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.59289,
+					44.83303
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:43+01:00",
+			"nbplaces": 11,
+			"ident": 9,
+			"gid": 9,
+			"nom": "Gavinies",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.59289,
+				44.83303
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "5effdd6f683fd4a19d456f99a358022cee65216a",
+		"fields": {
+			"gml_id": "CI_VCUB_P.10",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83176,
+				-0.59868
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.59868,
+					44.83176
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:43+01:00",
+			"nbplaces": 13,
+			"ident": 10,
+			"gid": 10,
+			"nom": "Stade Chaban Delmas",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.59868,
+				44.83176
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "cea72f38a9ab223915f61e71adf8341a9011e08f",
+		"fields": {
+			"gml_id": "CI_VCUB_P.11",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84166,
+				-0.5997
+			],
+			"nbvelos": 11,
+			"geo_shape": {
+				"coordinates": [
+					-0.5997,
+					44.84166
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:43+01:00",
+			"nbplaces": 19,
+			"ident": 11,
+			"gid": 11,
+			"nom": "Cite Administrative",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.5997,
+				44.84166
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "24ad9a97edb39f42aadd0acfc15eddfda934e455",
+		"fields": {
+			"gml_id": "CI_VCUB_P.12",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85115,
+				-0.60861
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.60861,
+					44.85115
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 12,
+			"gid": 12,
+			"nom": "Grand Lebrun",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.60861,
+				44.85115
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "4798fe2a2cba6167466c923443200b39a6b2deab",
+		"fields": {
+			"gml_id": "CI_VCUB_P.13",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84837,
+				-0.5981
+			],
+			"nbvelos": 1,
+			"geo_shape": {
+				"coordinates": [
+					-0.5981,
+					44.84837
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 19,
+			"ident": 13,
+			"gid": 13,
+			"nom": "Barriere St Medard",
+			"type": "VLS",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.5981,
+				44.84837
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "45f4ff10945b084ba58c5d890e66dbd926b2edf0",
+		"fields": {
+			"gml_id": "CI_VCUB_P.14",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84819,
+				-0.59197
+			],
+			"nbvelos": 13,
+			"geo_shape": {
+				"coordinates": [
+					-0.59197,
+					44.84819
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 17,
+			"ident": 14,
+			"gid": 14,
+			"nom": "Dubreuil Turenne",
+			"type": "VLS",
+			"nbelec": "8",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.59197,
+				44.84819
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "89f5fde1af053bb1cc9c2592518315479770bfd8",
+		"fields": {
+			"gml_id": "CI_VCUB_P.15",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84521,
+				-0.59206
+			],
+			"nbvelos": 0,
+			"geo_shape": {
+				"coordinates": [
+					-0.59206,
+					44.84521
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 15,
+			"gid": 15,
+			"nom": "Rue de la Croix Blanche",
+			"type": "VLS",
+			"nbelec": "0",
+			"etat": "MAINTENANCE",
+			"code_commune": "33063",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.59206,
+				44.84521
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "fbd63737f71f1d01e4ba336efa2d25e262f8d00e",
+		"fields": {
+			"gml_id": "CI_VCUB_P.16",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84947,
+				-0.54525
+			],
+			"nbvelos": 10,
+			"geo_shape": {
+				"coordinates": [
+					-0.54525,
+					44.84947
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 20,
+			"ident": 16,
+			"gid": 16,
+			"nom": "Galin",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "8",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.54525,
+				44.84947
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "553d2c66a6749e2e9bc3b447394e6cbb83c8673d",
+		"fields": {
+			"gml_id": "CI_VCUB_P.17",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.8469,
+				-0.58219
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.58219,
+					44.8469
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 0,
+			"ident": 17,
+			"gid": 17,
+			"nom": "Palais Gallien",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "8",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58219,
+				44.8469
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "ee1931c50b183e93f6a3c752a2002699d4e1361f",
+		"fields": {
+			"gml_id": "CI_VCUB_P.18",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84423,
+				-0.58164
+			],
+			"nbvelos": 3,
+			"geo_shape": {
+				"coordinates": [
+					-0.58164,
+					44.84423
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 18,
+			"gid": 18,
+			"nom": "Huguerie",
+			"type": "VLS",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58164,
+				44.84423
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "9174aab94e384cd5bc8e1e5f96c2379fb042bb49",
+		"fields": {
+			"gml_id": "CI_VCUB_P.19",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84465,
+				-0.57745
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.57745,
+					44.84465
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 16,
+			"ident": 19,
+			"gid": 19,
+			"nom": "Place Tourny",
+			"type": "VLS",
+			"nbelec": "8",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57745,
+				44.84465
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "4a047e517523064cdff31b880d9a494abd4b8159",
+		"fields": {
+			"gml_id": "CI_VCUB_P.20",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84314,
+				-0.57724
+			],
+			"nbvelos": 3,
+			"geo_shape": {
+				"coordinates": [
+					-0.57724,
+					44.84314
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 28,
+			"ident": 20,
+			"gid": 20,
+			"nom": "Grands Hommes",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57724,
+				44.84314
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "30a2206cf064d094a33f9dd8349d6e9a6c9a1c18",
+		"fields": {
+			"gml_id": "CI_VCUB_P.21",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84122,
+				-0.5756
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.5756,
+					44.84122
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 7,
+			"ident": 21,
+			"gid": 21,
+			"nom": "Puy Paulin",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.5756,
+				44.84122
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "bd70bd5da953ce03adb7226336f6940ec781dacd",
+		"fields": {
+			"gml_id": "CI_VCUB_P.22",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83826,
+				-0.57648
+			],
+			"nbvelos": 16,
+			"geo_shape": {
+				"coordinates": [
+					-0.57648,
+					44.83826
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 17,
+			"ident": 22,
+			"gid": 22,
+			"nom": "Hotel de Ville",
+			"type": "VLS",
+			"nbelec": "10",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57648,
+				44.83826
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "937e28cd4ecab004d8bbadc9de196df889dfbc90",
+		"fields": {
+			"gml_id": "CI_VCUB_P.23",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83483,
+				-0.58019
+			],
+			"nbvelos": 10,
+			"geo_shape": {
+				"coordinates": [
+					-0.58019,
+					44.83483
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 29,
+			"ident": 23,
+			"gid": 23,
+			"nom": "Republique",
+			"type": "VLS",
+			"nbelec": "7",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58019,
+				44.83483
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "5d4dbc73306df0d561a8806002147100e91618a8",
+		"fields": {
+			"gml_id": "CI_VCUB_P.24",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83325,
+				-0.58308
+			],
+			"nbvelos": 1,
+			"geo_shape": {
+				"coordinates": [
+					-0.58308,
+					44.83325
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 15,
+			"ident": 24,
+			"gid": 24,
+			"nom": "Liberation",
+			"type": "VLS",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58308,
+				44.83325
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "81a2e5d7819b24b8b4173de997509b66f5bcaefb",
+		"fields": {
+			"gml_id": "CI_VCUB_P.25",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.831,
+				-0.58734
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.58734,
+					44.831
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 1,
+			"ident": 25,
+			"gid": 25,
+			"nom": "Francois de Sourdis",
+			"type": "VLS",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "9",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58734,
+				44.831
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d5f9cb98101922bf63d88512c33030d750e76fae",
+		"fields": {
+			"gml_id": "CI_VCUB_P.26",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82797,
+				-0.59349
+			],
+			"nbvelos": 9,
+			"geo_shape": {
+				"coordinates": [
+					-0.59349,
+					44.82797
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 6,
+			"ident": 26,
+			"gid": 26,
+			"nom": "Xaintrailles",
+			"type": "VLS",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.59349,
+				44.82797
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "e75b266f22093348dc830cf3c2d4d69e53fd4ba7",
+		"fields": {
+			"gml_id": "CI_VCUB_P.27",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82654,
+				-0.60184
+			],
+			"nbvelos": 0,
+			"geo_shape": {
+				"coordinates": [
+					-0.60184,
+					44.82654
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 19,
+			"ident": 27,
+			"gid": 27,
+			"nom": "Bordeaux II",
+			"type": "VLS",
+			"nbelec": "0",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.60184,
+				44.82654
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "37570456a9789986690f4ee02e56e255032133b3",
+		"fields": {
+			"gml_id": "CI_VCUB_P.28",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82986,
+				-0.60351
+			],
+			"nbvelos": 2,
+			"geo_shape": {
+				"coordinates": [
+					-0.60351,
+					44.82986
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 30,
+			"ident": 28,
+			"gid": 28,
+			"nom": "Hopital Pellegrin",
+			"type": "VLS",
+			"nbelec": "0",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.60351,
+				44.82986
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "5fffaf71978a594db41a8ef34c90200a84f6289c",
+		"fields": {
+			"gml_id": "CI_VCUB_P.29",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.832736,
+				-0.60997
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.60997,
+					44.832736
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 6,
+			"ident": 29,
+			"gid": 29,
+			"nom": "St Augustin",
+			"type": "VLS",
+			"nbelec": "9",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.60997,
+				44.832736
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "869e3053b8da41690c359954b20de394b1006da1",
+		"fields": {
+			"gml_id": "CI_VCUB_P.30",
+			"commune": "M\u00e9rignac",
+			"geo_point_2d": [
+				44.83838,
+				-0.61689
+			],
+			"nbvelos": 11,
+			"geo_shape": {
+				"coordinates": [
+					-0.61689,
+					44.83838
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 7,
+			"ident": 30,
+			"gid": 30,
+			"nom": "Place Mondesir",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33281",
+			"nbclassiq": "8",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.61689,
+				44.83838
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "82e0201c9b8f085fa0a972d80a65422015c1f1e8",
+		"fields": {
+			"gml_id": "CI_VCUB_P.31",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85175,
+				-0.61438
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.61438,
+					44.85175
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 31,
+			"gid": 31,
+			"nom": "Cauderan",
+			"type": "VLS+",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.61438,
+				44.85175
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "38812dcebe55ba42d22d00d248944ca5c1a8dd99",
+		"fields": {
+			"gml_id": "CI_VCUB_P.32",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85261,
+				-0.59923
+			],
+			"nbvelos": 0,
+			"geo_shape": {
+				"coordinates": [
+					-0.59923,
+					44.85261
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 16,
+			"ident": 32,
+			"gid": 32,
+			"nom": "Parc Bordelais",
+			"type": "VLS",
+			"nbelec": "0",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.59923,
+				44.85261
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "bac759224db621e00c5d28a72243f35695dcc248",
+		"fields": {
+			"gml_id": "CI_VCUB_P.33",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.854092,
+				-0.593128
+			],
+			"nbvelos": 13,
+			"geo_shape": {
+				"coordinates": [
+					-0.593128,
+					44.854092
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 8,
+			"ident": 33,
+			"gid": 33,
+			"nom": "Barriere du Medoc",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "7",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.593128,
+				44.854092
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "8c8879786df6f76b27549815d9853fef54c9d313",
+		"fields": {
+			"gml_id": "CI_VCUB_P.34",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85379,
+				-0.58864
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.58864,
+					44.85379
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 6,
+			"ident": 34,
+			"gid": 34,
+			"nom": "Tivoli",
+			"type": "VLS",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58864,
+				44.85379
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "8c64058a3a2ed18306c338e09e4b833f80c4b53d",
+		"fields": {
+			"gml_id": "CI_VCUB_P.35",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85005,
+				-0.58547
+			],
+			"nbvelos": 12,
+			"geo_shape": {
+				"coordinates": [
+					-0.58547,
+					44.85005
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 6,
+			"ident": 35,
+			"gid": 35,
+			"nom": "Croix de Seguey",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "8",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58547,
+				44.85005
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d8a4c92d69cdef3934d0e7bd4ab4ee92dbf7f23b",
+		"fields": {
+			"gml_id": "CI_VCUB_P.36",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85005,
+				-0.582
+			],
+			"nbvelos": 13,
+			"geo_shape": {
+				"coordinates": [
+					-0.582,
+					44.85005
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 3,
+			"ident": 36,
+			"gid": 36,
+			"nom": "Place de Longchamps",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "7",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.582,
+				44.85005
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "8d5ace264f09af467ffe1d89df82a5b4bb05fc11",
+		"fields": {
+			"gml_id": "CI_VCUB_P.37",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84849,
+				-0.57581
+			],
+			"nbvelos": 4,
+			"geo_shape": {
+				"coordinates": [
+					-0.57581,
+					44.84849
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 26,
+			"ident": 37,
+			"gid": 37,
+			"nom": "Jardin Public",
+			"type": "VLS",
+			"nbelec": "0",
+			"etat": "DECONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57581,
+				44.84849
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "378b8037c0ad88bead180f47b5cc5fad2ce79e30",
+		"fields": {
+			"gml_id": "CI_VCUB_P.38",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84641,
+				-0.5802
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.5802,
+					44.84641
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 2,
+			"ident": 38,
+			"gid": 38,
+			"nom": "Fondaudege Museum",
+			"type": "VLS",
+			"nbelec": "0",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "14",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.5802,
+				44.84641
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "fd4816b182189dd852985707e7a3b1328303ac1c",
+		"fields": {
+			"gml_id": "CI_VCUB_P.39",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84423,
+				-0.57434
+			],
+			"nbvelos": 20,
+			"geo_shape": {
+				"coordinates": [
+					-0.57434,
+					44.84423
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 20,
+			"ident": 39,
+			"gid": 39,
+			"nom": "Quinconces",
+			"type": "VLS",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "15",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57434,
+				44.84423
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "7b746790dafbc9f8832a3ffae12b0ea47455bbf9",
+		"fields": {
+			"gml_id": "CI_VCUB_P.40",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84293,
+				-0.5739
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.5739,
+					44.84293
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 40,
+			"gid": 40,
+			"nom": "Grand Theatre",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.5739,
+				44.84293
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "88b73ff778bff0cce28df136fb886ffaa3a3d8ee",
+		"fields": {
+			"gml_id": "CI_VCUB_P.41",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83889,
+				-0.57466
+			],
+			"nbvelos": 13,
+			"geo_shape": {
+				"coordinates": [
+					-0.57466,
+					44.83889
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 5,
+			"ident": 41,
+			"gid": 41,
+			"nom": "Place St Projet",
+			"type": "VLS",
+			"nbelec": "7",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57466,
+				44.83889
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "17940a64c52c27e3dc840afa7dad9ea79c20dbdc",
+		"fields": {
+			"gml_id": "CI_VCUB_P.42",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83924,
+				-0.57203
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.57203,
+					44.83924
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 12,
+			"ident": 42,
+			"gid": 42,
+			"nom": "Camille Jullian",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57203,
+				44.83924
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "4c93e8e8f6a2af119b8e8f79cbd428c1e1a236f3",
+		"fields": {
+			"gml_id": "CI_VCUB_P.43",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83707,
+				-0.57279
+			],
+			"nbvelos": 11,
+			"geo_shape": {
+				"coordinates": [
+					-0.57279,
+					44.83707
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 6,
+			"ident": 43,
+			"gid": 43,
+			"nom": "St Paul",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57279,
+				44.83707
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "210383a6ed2eb6c7960d447eaa875a1d9f0d3820",
+		"fields": {
+			"gml_id": "CI_VCUB_P.44",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83606,
+				-0.57544
+			],
+			"nbvelos": 4,
+			"geo_shape": {
+				"coordinates": [
+					-0.57544,
+					44.83606
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 16,
+			"ident": 44,
+			"gid": 44,
+			"nom": "Musee d'Aquitaine",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57544,
+				44.83606
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "1efda3877427c4131d8742694e0cfebf5507c2d2",
+		"fields": {
+			"gml_id": "CI_VCUB_P.45",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83312,
+				-0.57695
+			],
+			"nbvelos": 9,
+			"geo_shape": {
+				"coordinates": [
+					-0.57695,
+					44.83312
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 11,
+			"ident": 45,
+			"gid": 45,
+			"nom": "Place Ste Eulalie",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57695,
+				44.83312
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "2d94415d5fd86912345f89224326a28a45f7ad3a",
+		"fields": {
+			"gml_id": "CI_VCUB_P.46",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.822803,
+				-0.55293
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.55293,
+					44.822803
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 12,
+			"ident": 46,
+			"gid": 46,
+			"nom": "Belcier Tram",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.55293,
+				44.822803
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d549525cd8ded17c6fc6c918589e3075af26d770",
+		"fields": {
+			"gml_id": "CI_VCUB_P.47",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82789,
+				-0.58605
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.58605,
+					44.82789
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 47,
+			"gid": 47,
+			"nom": "Magendie",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58605,
+				44.82789
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "f0e5ba2045a32815c06b74e154f311bb5780f273",
+		"fields": {
+			"gml_id": "CI_VCUB_P.48",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82578,
+				-0.58975
+			],
+			"nbvelos": 13,
+			"geo_shape": {
+				"coordinates": [
+					-0.58975,
+					44.82578
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 4,
+			"ident": 48,
+			"gid": 48,
+			"nom": "Barriere de Pessac",
+			"type": "VLS",
+			"nbelec": "8",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58975,
+				44.82578
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "63122b808a46f63475a5cb885e6e12a6316a5c3b",
+		"fields": {
+			"gml_id": "CI_VCUB_P.49",
+			"commune": "Le Bouscat",
+			"geo_point_2d": [
+				44.86329,
+				-0.59995
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.59995,
+					44.86329
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 49,
+			"gid": 49,
+			"nom": "Emile Zola",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33069",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.59995,
+				44.86329
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "6c8f6add49195ef590b89724c2c3249d7d664fab",
+		"fields": {
+			"gml_id": "CI_VCUB_P.50",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85999,
+				-0.58876
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.58876,
+					44.85999
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 5,
+			"ident": 50,
+			"gid": 50,
+			"nom": "Mandron Godard",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58876,
+				44.85999
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "3418085310cc0e1a14401c8745b5ee9eb72f24c1",
+		"fields": {
+			"gml_id": "CI_VCUB_P.51",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.862559,
+				-0.583247
+			],
+			"nbvelos": 4,
+			"geo_shape": {
+				"coordinates": [
+					-0.583247,
+					44.862559
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 15,
+			"ident": 51,
+			"gid": 51,
+			"nom": "Place Ampere",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.583247,
+				44.862559
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "321899f2f8734fed59f93adf8b1f8a0c426fa20d",
+		"fields": {
+			"gml_id": "CI_VCUB_P.52",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.858902,
+				-0.581327
+			],
+			"nbvelos": 1,
+			"geo_shape": {
+				"coordinates": [
+					-0.581327,
+					44.858902
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 17,
+			"ident": 52,
+			"gid": 52,
+			"nom": "Place de l'Europe",
+			"type": "VLS",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.581327,
+				44.858902
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "e58cdf587beb9b6c6b7589a0c103d999f88cb47d",
+		"fields": {
+			"gml_id": "CI_VCUB_P.53",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85417,
+				-0.58659
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.58659,
+					44.85417
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 7,
+			"ident": 53,
+			"gid": 53,
+			"nom": "Parc Riviere",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58659,
+				44.85417
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "8b1a9d4f7e1bf19c9cb981bffedbabb9c9a92cf5",
+		"fields": {
+			"gml_id": "CI_VCUB_P.54",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82642,
+				-0.55732
+			],
+			"nbvelos": 29,
+			"geo_shape": {
+				"coordinates": [
+					-0.55732,
+					44.82642
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 13,
+			"ident": 54,
+			"gid": 54,
+			"nom": "Rue St Vincent de Paul",
+			"type": "VLS",
+			"nbelec": "17",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "12",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.55732,
+				44.82642
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "68756bd857946c086c95c92c0b6cb383c1880957",
+		"fields": {
+			"gml_id": "CI_VCUB_P.55",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85462,
+				-0.57435
+			],
+			"nbvelos": 4,
+			"geo_shape": {
+				"coordinates": [
+					-0.57435,
+					44.85462
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 12,
+			"ident": 55,
+			"gid": 55,
+			"nom": "Camille Godard",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57435,
+				44.85462
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "5777d7d2e86854260f6e563f997595fe7f1fbf5a",
+		"fields": {
+			"gml_id": "CI_VCUB_P.56",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85171,
+				-0.57427
+			],
+			"nbvelos": 19,
+			"geo_shape": {
+				"coordinates": [
+					-0.57427,
+					44.85171
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 1,
+			"ident": 56,
+			"gid": 56,
+			"nom": "Place Paul Doumer",
+			"type": "VLS",
+			"nbelec": "11",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "8",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57427,
+				44.85171
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "9374ff504b00cb076fa7f598ac44df855b2d7b23",
+		"fields": {
+			"gml_id": "CI_VCUB_P.57",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85155,
+				-0.57163
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.57163,
+					44.85155
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 0,
+			"ident": 57,
+			"gid": 57,
+			"nom": "Eglise St Louis",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "8",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57163,
+				44.85155
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "1440c7685965211e3656e5bd196e85c81d247bc1",
+		"fields": {
+			"gml_id": "CI_VCUB_P.58",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85321,
+				-0.56727
+			],
+			"nbvelos": 10,
+			"geo_shape": {
+				"coordinates": [
+					-0.56727,
+					44.85321
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 8,
+			"ident": 58,
+			"gid": 58,
+			"nom": "Chartrons",
+			"type": "VLS",
+			"nbelec": "7",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56727,
+				44.85321
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "48e8ab14e9725d404971b0c36ee3610825ea1386",
+		"fields": {
+			"gml_id": "CI_VCUB_P.59",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84978,
+				-0.57024
+			],
+			"nbvelos": 4,
+			"geo_shape": {
+				"coordinates": [
+					-0.57024,
+					44.84978
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 13,
+			"ident": 59,
+			"gid": 59,
+			"nom": "CAPC",
+			"type": "VLS",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57024,
+				44.84978
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "72e134d0c0d170ad9668e73718ff472d8d1cd648",
+		"fields": {
+			"gml_id": "CI_VCUB_P.60",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84718,
+				-0.57131
+			],
+			"nbvelos": 3,
+			"geo_shape": {
+				"coordinates": [
+					-0.57131,
+					44.84718
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 16,
+			"ident": 60,
+			"gid": 60,
+			"nom": "Allees de Chartres",
+			"type": "VLS",
+			"nbelec": "0",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57131,
+				44.84718
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d7038b83944ecdc796db0b915dd23c6556a1db33",
+		"fields": {
+			"gml_id": "CI_VCUB_P.61",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84625,
+				-0.56495
+			],
+			"nbvelos": 2,
+			"geo_shape": {
+				"coordinates": [
+					-0.56495,
+					44.84625
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 61,
+			"gid": 61,
+			"nom": "Parc aux Angeliques",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56495,
+				44.84625
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "181aafe78673c54413497a30f90691b8607054db",
+		"fields": {
+			"gml_id": "CI_VCUB_P.62",
+			"commune": "Cenon",
+			"geo_point_2d": [
+				44.856476,
+				-0.533983
+			],
+			"nbvelos": 15,
+			"geo_shape": {
+				"coordinates": [
+					-0.533983,
+					44.856476
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 62,
+			"gid": 62,
+			"nom": "Cenon Gare",
+			"type": "VLS+",
+			"nbelec": "9",
+			"etat": "CONNECTEE",
+			"code_commune": "33119",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.533983,
+				44.856476
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "4f468dafa97fcbaf9d6436e3c322127145721554",
+		"fields": {
+			"gml_id": "CI_VCUB_P.63",
+			"commune": "Floirac",
+			"geo_point_2d": [
+				44.83028,
+				-0.52697
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.52697,
+					44.83028
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 11,
+			"ident": 63,
+			"gid": 63,
+			"nom": "Francois Mitterrand",
+			"type": "VLS+",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33167",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.52697,
+				44.83028
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "b130e860aa361d046245e935e4805b310ace861d",
+		"fields": {
+			"gml_id": "CI_VCUB_P.64",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.8396,
+				-0.55645
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.55645,
+					44.8396
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 12,
+			"ident": 64,
+			"gid": 64,
+			"nom": "La Benauge",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.55645,
+				44.8396
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "ad41617de762b6e9d478fdfec351113a807c669c",
+		"fields": {
+			"gml_id": "CI_VCUB_P.65",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84034,
+				-0.55955
+			],
+			"nbvelos": 29,
+			"geo_shape": {
+				"coordinates": [
+					-0.55955,
+					44.84034
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 12,
+			"ident": 65,
+			"gid": 65,
+			"nom": "Stalingrad",
+			"type": "VLS",
+			"nbelec": "19",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "10",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.55955,
+				44.84034
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "fc44d85609e4e14214dfe388ed016ee1f6e8a57b",
+		"fields": {
+			"gml_id": "CI_VCUB_P.66",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84114,
+				-0.56224
+			],
+			"nbvelos": 3,
+			"geo_shape": {
+				"coordinates": [
+					-0.56224,
+					44.84114
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 17,
+			"ident": 66,
+			"gid": 66,
+			"nom": "Gare d'Orleans",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56224,
+				44.84114
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d11e4b995eaea01d55b76b8f8b228665f3e27e1e",
+		"fields": {
+			"gml_id": "CI_VCUB_P.67",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84377,
+				-0.55751
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.55751,
+					44.84377
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 12,
+			"ident": 67,
+			"gid": 67,
+			"nom": "Allee de Serr Abadie",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.55751,
+				44.84377
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "c20f1a0414b9b253eec720a4a1b3ce2cea450ea3",
+		"fields": {
+			"gml_id": "CI_VCUB_P.68",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84298,
+				-0.55573
+			],
+			"nbvelos": 9,
+			"geo_shape": {
+				"coordinates": [
+					-0.55573,
+					44.84298
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 68,
+			"gid": 68,
+			"nom": "Jardin Botanique",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "7",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.55573,
+				44.84298
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "6ee85d7ff85dd7410449f9a7ed981692e31a3bab",
+		"fields": {
+			"gml_id": "CI_VCUB_P.69",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84299,
+				-0.55036
+			],
+			"nbvelos": 10,
+			"geo_shape": {
+				"coordinates": [
+					-0.55036,
+					44.84299
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 3,
+			"ident": 69,
+			"gid": 69,
+			"nom": "Cours Le Rouzic",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.55036,
+				44.84299
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "ccef4a8bd35240867910b8cfc8c25c6dbf365615",
+		"fields": {
+			"gml_id": "CI_VCUB_P.70",
+			"commune": "Lormont",
+			"geo_point_2d": [
+				44.86428,
+				-0.5242
+			],
+			"nbvelos": 18,
+			"geo_shape": {
+				"coordinates": [
+					-0.5242,
+					44.86428
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 2,
+			"ident": 70,
+			"gid": 70,
+			"nom": "Buttiniere",
+			"type": "VLS+",
+			"nbelec": "13",
+			"etat": "CONNECTEE",
+			"code_commune": "33249",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.5242,
+				44.86428
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "318721732256649dea13c8a8ee8b6cb85135579f",
+		"fields": {
+			"gml_id": "CI_VCUB_P.71",
+			"commune": "Lormont",
+			"geo_point_2d": [
+				44.8875,
+				-0.51763
+			],
+			"nbvelos": 4,
+			"geo_shape": {
+				"coordinates": [
+					-0.51763,
+					44.8875
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 71,
+			"gid": 71,
+			"nom": "La Gardette",
+			"type": "VLS+",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33249",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.51763,
+				44.8875
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d1e8c308f2a10256df25be0593201bbe00a32284",
+		"fields": {
+			"gml_id": "CI_VCUB_P.72",
+			"commune": "Cenon",
+			"geo_point_2d": [
+				44.85418,
+				-0.51282
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.51282,
+					44.85418
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 16,
+			"ident": 72,
+			"gid": 72,
+			"nom": "Jean Zay",
+			"type": "VLS+",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33119",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.51282,
+				44.85418
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "c8ecf95e601be2ec0b4e9e9736e1a6b2c751a7ea",
+		"fields": {
+			"gml_id": "CI_VCUB_P.73",
+			"commune": "B\u00e8gles",
+			"geo_point_2d": [
+				44.815083,
+				-0.550901
+			],
+			"nbvelos": 9,
+			"geo_shape": {
+				"coordinates": [
+					-0.550901,
+					44.815083
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 11,
+			"ident": 73,
+			"gid": 73,
+			"nom": "Terres Neuves",
+			"type": "VLS+",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33039",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.550901,
+				44.815083
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "f0de91a351b811acaeb003df1ffb7c38a10efede",
+		"fields": {
+			"gml_id": "CI_VCUB_P.74",
+			"commune": "B\u00e8gles",
+			"geo_point_2d": [
+				44.8077,
+				-0.54821
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.54821,
+					44.8077
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 74,
+			"gid": 74,
+			"nom": "Place du 14 juillet",
+			"type": "VLS+",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33039",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.54821,
+				44.8077
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "0708e3a7a3e0b04f6712ffe1d467a33b12c34a75",
+		"fields": {
+			"gml_id": "CI_VCUB_P.75",
+			"commune": "B\u00e8gles",
+			"geo_point_2d": [
+				44.807735,
+				-0.560024
+			],
+			"nbvelos": 12,
+			"geo_shape": {
+				"coordinates": [
+					-0.560024,
+					44.807735
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 6,
+			"ident": 75,
+			"gid": 75,
+			"nom": "Begles Poste",
+			"type": "VLS+",
+			"nbelec": "9",
+			"etat": "CONNECTEE",
+			"code_commune": "33039",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.560024,
+				44.807735
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "2b523f988d02b124666da0c0446f89af1232e6fa",
+		"fields": {
+			"gml_id": "CI_VCUB_P.76",
+			"commune": "Villenave-d'Ornon",
+			"geo_point_2d": [
+				44.781742,
+				-0.566207
+			],
+			"nbvelos": 11,
+			"geo_shape": {
+				"coordinates": [
+					-0.566207,
+					44.781742
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 76,
+			"gid": 76,
+			"nom": "Pont de la Maye",
+			"type": "VLS+",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33550",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.566207,
+				44.781742
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "13811644fe9d90ffe87c9439ec3595e73889fed2",
+		"fields": {
+			"gml_id": "CI_VCUB_P.77",
+			"commune": "Gradignan",
+			"geo_point_2d": [
+				44.773678,
+				-0.613335
+			],
+			"nbvelos": 11,
+			"geo_shape": {
+				"coordinates": [
+					-0.613335,
+					44.773678
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 77,
+			"gid": 77,
+			"nom": "Place Bernard Roumegoux",
+			"type": "VLS+",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33192",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.613335,
+				44.773678
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "7943e91a0025fa079d3f6043053e7d6cb303788d",
+		"fields": {
+			"gml_id": "CI_VCUB_P.78",
+			"commune": "Pessac",
+			"geo_point_2d": [
+				44.793914,
+				-0.635051
+			],
+			"nbvelos": 3,
+			"geo_shape": {
+				"coordinates": [
+					-0.635051,
+					44.793914
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 17,
+			"ident": 78,
+			"gid": 78,
+			"nom": "Bougnard",
+			"type": "VLS+",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33318",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.635051,
+				44.793914
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d77eab18a60a6c72564dc7beb7837d0b3a5cea11",
+		"fields": {
+			"gml_id": "CI_VCUB_P.79",
+			"commune": "Pessac",
+			"geo_point_2d": [
+				44.7862,
+				-0.63874
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.63874,
+					44.7862
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 79,
+			"gid": 79,
+			"nom": "Pessac Bersol",
+			"type": "VLS+",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33318",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.63874,
+				44.7862
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "839d929973896ed3dc7fa3b9214e46cf1def7e35",
+		"fields": {
+			"gml_id": "CI_VCUB_P.80",
+			"commune": "Pessac",
+			"geo_point_2d": [
+				44.79319,
+				-0.657632
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.657632,
+					44.79319
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 13,
+			"ident": 80,
+			"gid": 80,
+			"nom": "Gare Pessac Alouette",
+			"type": "VLS+",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33318",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.657632,
+				44.79319
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "2904b225039bed4c2b1db095725a7b4438e5f8db",
+		"fields": {
+			"gml_id": "CI_VCUB_P.81",
+			"commune": "Pessac",
+			"geo_point_2d": [
+				44.79588,
+				-0.66733
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.66733,
+					44.79588
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 11,
+			"ident": 81,
+			"gid": 81,
+			"nom": "Castaing",
+			"type": "VLS+",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33318",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.66733,
+				44.79588
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "f28d0866cf62189b3c3d64c0c6e4672f0e9d2951",
+		"fields": {
+			"gml_id": "CI_VCUB_P.82",
+			"commune": "Pessac",
+			"geo_point_2d": [
+				44.792915,
+				-0.646629
+			],
+			"nbvelos": 10,
+			"geo_shape": {
+				"coordinates": [
+					-0.646629,
+					44.792915
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 82,
+			"gid": 82,
+			"nom": "La Chataigneraie",
+			"type": "VLS+",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33318",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.646629,
+				44.792915
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "9384633396e615c3db1ffbe2bcf813a1d974b0b3",
+		"fields": {
+			"gml_id": "CI_VCUB_P.83",
+			"commune": "Pessac",
+			"geo_point_2d": [
+				44.80446,
+				-0.63267
+			],
+			"nbvelos": 12,
+			"geo_shape": {
+				"coordinates": [
+					-0.63267,
+					44.80446
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 83,
+			"gid": 83,
+			"nom": "Pessac Centre",
+			"type": "VLS+",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33318",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.63267,
+				44.80446
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "6226dc4c0c65c0cf64573ae11446245925ba351f",
+		"fields": {
+			"gml_id": "CI_VCUB_P.84",
+			"commune": "M\u00e9rignac",
+			"geo_point_2d": [
+				44.81535,
+				-0.63444
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.63444,
+					44.81535
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 84,
+			"gid": 84,
+			"nom": "Le Burck",
+			"type": "VLS+",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33281",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.63444,
+				44.81535
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "ea70219e9e2b862be00c8405f90fc3b7474fcdf8",
+		"fields": {
+			"gml_id": "CI_VCUB_P.85",
+			"commune": "M\u00e9rignac",
+			"geo_point_2d": [
+				44.83242,
+				-0.64594
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.64594,
+					44.83242
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 13,
+			"ident": 85,
+			"gid": 85,
+			"nom": "Merignac Quatre Chemins",
+			"type": "VLS+",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33281",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.64594,
+				44.83242
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "52f2b2d4c08a84e04bade060449e8e0f9cda4ddf",
+		"fields": {
+			"gml_id": "CI_VCUB_P.86",
+			"commune": "M\u00e9rignac",
+			"geo_point_2d": [
+				44.831917,
+				-0.654779
+			],
+			"nbvelos": 4,
+			"geo_shape": {
+				"coordinates": [
+					-0.654779,
+					44.831917
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 16,
+			"ident": 86,
+			"gid": 86,
+			"nom": "Merignac Soleil",
+			"type": "VLS+",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33281",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.654779,
+				44.831917
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "b3b1203674bcbf66ccdb50a2c3832738248a5508",
+		"fields": {
+			"gml_id": "CI_VCUB_P.87",
+			"commune": "M\u00e9rignac",
+			"geo_point_2d": [
+				44.83628,
+				-0.68713
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.68713,
+					44.83628
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 13,
+			"ident": 87,
+			"gid": 87,
+			"nom": "Kennedy Parc Hotelier",
+			"type": "VLS+",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33281",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.68713,
+				44.83628
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "696223716418d7ac2f1e4ce9da688157ca3ef2f4",
+		"fields": {
+			"gml_id": "CI_VCUB_P.88",
+			"commune": "M\u00e9rignac",
+			"geo_point_2d": [
+				44.85097,
+				-0.64475
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.64475,
+					44.85097
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 12,
+			"ident": 88,
+			"gid": 88,
+			"nom": "Merignac Capeyron",
+			"type": "VLS+",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33281",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.64475,
+				44.85097
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "1ac1b0bda017d86de80ae45c0c7851427d426c37",
+		"fields": {
+			"gml_id": "CI_VCUB_P.89",
+			"commune": "M\u00e9rignac",
+			"geo_point_2d": [
+				44.8416,
+				-0.646465
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.646465,
+					44.8416
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 7,
+			"ident": 89,
+			"gid": 89,
+			"nom": "Merignac Centre",
+			"type": "VLS+",
+			"nbelec": "9",
+			"etat": "CONNECTEE",
+			"code_commune": "33281",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.646465,
+				44.8416
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "a47c991af3a164f586162469bf73606a19e84737",
+		"fields": {
+			"gml_id": "CI_VCUB_P.90",
+			"commune": "M\u00e9rignac",
+			"geo_point_2d": [
+				44.8265,
+				-0.62577
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.62577,
+					44.8265
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 90,
+			"gid": 90,
+			"nom": "Fontaine d'Arlac",
+			"type": "VLS+",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33281",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.62577,
+				44.8265
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "e961a4815beb8f64405da8294844a1a60e6448f6",
+		"fields": {
+			"gml_id": "CI_VCUB_P.91",
+			"commune": "Le Haillan",
+			"geo_point_2d": [
+				44.87369,
+				-0.67753
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.67753,
+					44.87369
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 91,
+			"gid": 91,
+			"nom": "Mairie du Haillan",
+			"type": "VLS+",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33200",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.67753,
+				44.87369
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "4c05c98de6269cfa959d2b002834b0905b280229",
+		"fields": {
+			"gml_id": "CI_VCUB_P.92",
+			"commune": "Saint-M\u00e9dard-en-Jalles",
+			"geo_point_2d": [
+				44.89539,
+				-0.71487
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.71487,
+					44.89539
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 8,
+			"ident": 92,
+			"gid": 92,
+			"nom": "St Medard Republique",
+			"type": "VLS+",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33449",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.71487,
+				44.89539
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "9cbc15ec8b3d9d993ebd79df06fabc0a6717829d",
+		"fields": {
+			"gml_id": "CI_VCUB_P.93",
+			"commune": "Eysines",
+			"geo_point_2d": [
+				44.869026,
+				-0.636207
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.636207,
+					44.869026
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 11,
+			"ident": 93,
+			"gid": 93,
+			"nom": "Place Florale",
+			"type": "VLS+",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33162",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.636207,
+				44.869026
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "4ebce0207217088fb39cb43990b49a11a054a172",
+		"fields": {
+			"gml_id": "CI_VCUB_P.94",
+			"commune": "Blanquefort",
+			"geo_point_2d": [
+				44.9173,
+				-0.62382
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.62382,
+					44.9173
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 4,
+			"ident": 94,
+			"gid": 94,
+			"nom": "Gare de Blanquefort",
+			"type": "VLS+",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33056",
+			"nbclassiq": "9",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.62382,
+				44.9173
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "e2160d5a561aab664d55fe39d313d709d475aeb9",
+		"fields": {
+			"gml_id": "CI_VCUB_P.95",
+			"commune": "Bruges",
+			"geo_point_2d": [
+				44.88145,
+				-0.61337
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.61337,
+					44.88145
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 95,
+			"gid": 95,
+			"nom": "Bruges Hotel de Ville",
+			"type": "VLS+",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33075",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.61337,
+				44.88145
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "9e9aa4e68b100258c9256df591a91daae1981ac7",
+		"fields": {
+			"gml_id": "CI_VCUB_P.96",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.87389,
+				-0.57401
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.57401,
+					44.87389
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 96,
+			"gid": 96,
+			"nom": "Les Aubiers",
+			"type": "VLS+",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57401,
+				44.87389
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "878aac818fc13710fc0284690f056ba72d0db1d5",
+		"fields": {
+			"gml_id": "CI_VCUB_P.97",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.87738,
+				-0.54433
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.54433,
+					44.87738
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 12,
+			"ident": 97,
+			"gid": 97,
+			"nom": "Claveau",
+			"type": "VLS+",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "7",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.54433,
+				44.87738
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "6b87b9be72a251bef4749a0576c20fd0a192968a",
+		"fields": {
+			"gml_id": "CI_VCUB_P.98",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.86007,
+				-0.55447
+			],
+			"nbvelos": 0,
+			"geo_shape": {
+				"coordinates": [
+					-0.55447,
+					44.86007
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 18,
+			"ident": 98,
+			"gid": 98,
+			"nom": "Bassins a flot",
+			"type": "VLS",
+			"nbelec": "0",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.55447,
+				44.86007
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d008fcb96e129bca207d38e67e525775d0a4965d",
+		"fields": {
+			"gml_id": "CI_VCUB_P.99",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85787,
+				-0.55808
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.55808,
+					44.85787
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 99,
+			"gid": 99,
+			"nom": "Les Hangars",
+			"type": "VLS",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.55808,
+				44.85787
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "eafc308351bb3ed4c3eb09458e8bf9f3f4565fe5",
+		"fields": {
+			"gml_id": "CI_VCUB_P.100",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.8556,
+				-0.56319
+			],
+			"nbvelos": 20,
+			"geo_shape": {
+				"coordinates": [
+					-0.56319,
+					44.8556
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 19,
+			"ident": 100,
+			"gid": 100,
+			"nom": "Cours du Medoc",
+			"type": "VLS",
+			"nbelec": "14",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56319,
+				44.8556
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d093d2ace1f78fabdfcb9880a07942b990e58ede",
+		"fields": {
+			"gml_id": "CI_VCUB_P.101",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84295,
+				-0.57037
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.57037,
+					44.84295
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 15,
+			"ident": 101,
+			"gid": 101,
+			"nom": "Place Jean Jaures",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57037,
+				44.84295
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "6c83fe018f81c9a18d2295868af872d90baedf43",
+		"fields": {
+			"gml_id": "CI_VCUB_P.102",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.8403,
+				-0.56914
+			],
+			"nbvelos": 11,
+			"geo_shape": {
+				"coordinates": [
+					-0.56914,
+					44.8403
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 102,
+			"gid": 102,
+			"nom": "Place de la Bourse",
+			"type": "VLS",
+			"nbelec": "9",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56914,
+				44.8403
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d39997f9ed596eb2822321526d7613776f495aa4",
+		"fields": {
+			"gml_id": "CI_VCUB_P.103",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83779,
+				-0.57034
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.57034,
+					44.83779
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 6,
+			"ident": 103,
+			"gid": 103,
+			"nom": "Place du Palais",
+			"type": "VLS",
+			"nbelec": "9",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57034,
+				44.83779
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "dd34236dd7fc90e6d8dabcc1760227eb0737c1b9",
+		"fields": {
+			"gml_id": "CI_VCUB_P.104",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83518,
+				-0.57205
+			],
+			"nbvelos": 10,
+			"geo_shape": {
+				"coordinates": [
+					-0.57205,
+					44.83518
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 6,
+			"ident": 104,
+			"gid": 104,
+			"nom": "Grosse Cloche",
+			"type": "VLS",
+			"nbelec": "7",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57205,
+				44.83518
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d23e3ac7e4d40ec37fbff67a0f70e87a6139bd5f",
+		"fields": {
+			"gml_id": "CI_VCUB_P.105",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83262,
+				-0.57097
+			],
+			"nbvelos": 13,
+			"geo_shape": {
+				"coordinates": [
+					-0.57097,
+					44.83262
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 5,
+			"ident": 105,
+			"gid": 105,
+			"nom": "Rue du Mirail",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "7",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57097,
+				44.83262
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "99f5be74b3af5e69e21da193e7bbe08be09d0955",
+		"fields": {
+			"gml_id": "CI_VCUB_P.106",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83064,
+				-0.57321
+			],
+			"nbvelos": 26,
+			"geo_shape": {
+				"coordinates": [
+					-0.57321,
+					44.83064
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 106,
+			"gid": 106,
+			"nom": "Place de la Victoire",
+			"type": "VLS",
+			"nbelec": "10",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "16",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57321,
+				44.83064
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "1b6b91edf7a96906174d7354ed4176132dc1afa3",
+		"fields": {
+			"gml_id": "CI_VCUB_P.107",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82751,
+				-0.57589
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.57589,
+					44.82751
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 8,
+			"ident": 107,
+			"gid": 107,
+			"nom": "St Nicolas",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57589,
+				44.82751
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "27d335a21545f376105bac505a278fe732d77281",
+		"fields": {
+			"gml_id": "CI_VCUB_P.108",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82471,
+				-0.57815
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.57815,
+					44.82471
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 108,
+			"gid": 108,
+			"nom": "Bergonie",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57815,
+				44.82471
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "8ceb9df7d9ac73f75e1eed6a16f5fee2f4fa32f3",
+		"fields": {
+			"gml_id": "CI_VCUB_P.109",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82209,
+				-0.58178
+			],
+			"nbvelos": 12,
+			"geo_shape": {
+				"coordinates": [
+					-0.58178,
+					44.82209
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 23,
+			"ident": 109,
+			"gid": 109,
+			"nom": "Barriere St Genes",
+			"type": "VLS",
+			"nbelec": "9",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58178,
+				44.82209
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "36d50cfbf1075fd063ea55a9020d2d083cf804e9",
+		"fields": {
+			"gml_id": "CI_VCUB_P.110",
+			"commune": "Talence",
+			"geo_point_2d": [
+				44.81238,
+				-0.59103
+			],
+			"nbvelos": 20,
+			"geo_shape": {
+				"coordinates": [
+					-0.59103,
+					44.81238
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 20,
+			"ident": 110,
+			"gid": 110,
+			"nom": "Forum",
+			"type": "VLS",
+			"nbelec": "11",
+			"etat": "CONNECTEE",
+			"code_commune": "33522",
+			"nbclassiq": "9",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.59103,
+				44.81238
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "f2562639d747991748584824e6c2887cd0a185c9",
+		"fields": {
+			"gml_id": "CI_VCUB_P.111",
+			"commune": "Talence",
+			"geo_point_2d": [
+				44.80681,
+				-0.59245
+			],
+			"nbvelos": 4,
+			"geo_shape": {
+				"coordinates": [
+					-0.59245,
+					44.80681
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 36,
+			"ident": 111,
+			"gid": 111,
+			"nom": "Peixotto",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33522",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.59245,
+				44.80681
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "1b19b012eb783480042ed3e33b4c87b5cf99d618",
+		"fields": {
+			"gml_id": "CI_VCUB_P.112",
+			"commune": "Talence",
+			"geo_point_2d": [
+				44.80591,
+				-0.60232
+			],
+			"nbvelos": 10,
+			"geo_shape": {
+				"coordinates": [
+					-0.60232,
+					44.80591
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 29,
+			"ident": 112,
+			"gid": 112,
+			"nom": "Arts et Metiers",
+			"type": "VLS",
+			"nbelec": "9",
+			"etat": "CONNECTEE",
+			"code_commune": "33522",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.60232,
+				44.80591
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "00f97d33897ec6ed225854076ccc602c62d0b56e",
+		"fields": {
+			"gml_id": "CI_VCUB_P.113",
+			"commune": "Talence",
+			"geo_point_2d": [
+				44.79688,
+				-0.60187
+			],
+			"nbvelos": 2,
+			"geo_shape": {
+				"coordinates": [
+					-0.60187,
+					44.79688
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 18,
+			"ident": 113,
+			"gid": 113,
+			"nom": "Ecole de Management",
+			"type": "VLS",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33522",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.60187,
+				44.79688
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "237a5545acacaec7eddf36de39c026933cb0d70c",
+		"fields": {
+			"gml_id": "CI_VCUB_P.114",
+			"commune": "Gradignan",
+			"geo_point_2d": [
+				44.79313,
+				-0.60547
+			],
+			"nbvelos": 4,
+			"geo_shape": {
+				"coordinates": [
+					-0.60547,
+					44.79313
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 23,
+			"ident": 114,
+			"gid": 114,
+			"nom": "Compostelle",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33192",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.60547,
+				44.79313
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "fe618a2e55a848723955427657f7960854d7dbd9",
+		"fields": {
+			"gml_id": "CI_VCUB_P.115",
+			"commune": "Talence",
+			"geo_point_2d": [
+				44.801376,
+				-0.597153
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.597153,
+					44.801376
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 17,
+			"ident": 115,
+			"gid": 115,
+			"nom": "CREPS",
+			"type": "VLS",
+			"nbelec": "7",
+			"etat": "CONNECTEE",
+			"code_commune": "33522",
+			"nbclassiq": "7",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.597153,
+				44.801376
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "8cf167bfd65a7814e42880f0f6f25a783cd30005",
+		"fields": {
+			"gml_id": "CI_VCUB_P.116",
+			"commune": "Pessac",
+			"geo_point_2d": [
+				44.79667,
+				-0.61704
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.61704,
+					44.79667
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 33,
+			"ident": 116,
+			"gid": 116,
+			"nom": "Montaigne Montesquieu",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33318",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.61704,
+				44.79667
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "1b5cd3b0f11637bb8988e1ebb22acc6d7d8311ef",
+		"fields": {
+			"gml_id": "CI_VCUB_P.117",
+			"commune": "Pessac",
+			"geo_point_2d": [
+				44.80038,
+				-0.60986
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.60986,
+					44.80038
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 117,
+			"gid": 117,
+			"nom": "Doyen Brus",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33318",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.60986,
+				44.80038
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "149ad3b1588e584455d28c6d507c414e6275069f",
+		"fields": {
+			"gml_id": "CI_VCUB_P.118",
+			"commune": "Le Bouscat",
+			"geo_point_2d": [
+				44.86694,
+				-0.57608
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.57608,
+					44.86694
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 11,
+			"ident": 118,
+			"gid": 118,
+			"nom": "Place Ravezies",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33069",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57608,
+				44.86694
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "de39b89183ebbafc5373aba48b03d3a794a697b1",
+		"fields": {
+			"gml_id": "CI_VCUB_P.119",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.8626,
+				-0.57576
+			],
+			"nbvelos": 10,
+			"geo_shape": {
+				"coordinates": [
+					-0.57576,
+					44.8626
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 119,
+			"gid": 119,
+			"nom": "Grand Parc",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "8",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57576,
+				44.8626
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "67932167cf7605c868bd654c9a34f3a54f489673",
+		"fields": {
+			"gml_id": "CI_VCUB_P.120",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.86261,
+				-0.56718
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.56718,
+					44.86261
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 24,
+			"ident": 120,
+			"gid": 120,
+			"nom": "St Louis Haussmann",
+			"type": "VLS",
+			"nbelec": "0",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56718,
+				44.86261
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "141024e3ce8e5c58839e1e5bf4734fa142bd5cc0",
+		"fields": {
+			"gml_id": "CI_VCUB_P.121",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85891,
+				-0.56584
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.56584,
+					44.85891
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 8,
+			"ident": 121,
+			"gid": 121,
+			"nom": "Place St Martial",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56584,
+				44.85891
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "4fd73ed3f5fec5df3f0a235900e471025b697506",
+		"fields": {
+			"gml_id": "CI_VCUB_P.122",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85849,
+				-0.56966
+			],
+			"nbvelos": 2,
+			"geo_shape": {
+				"coordinates": [
+					-0.56966,
+					44.85849
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 13,
+			"ident": 122,
+			"gid": 122,
+			"nom": "Cours St Louis Medoc",
+			"type": "VLS",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56966,
+				44.85849
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "b140d99b87a5cdeb14a69079934863269bc57fc6",
+		"fields": {
+			"gml_id": "CI_VCUB_P.123",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83779,
+				-0.56716
+			],
+			"nbvelos": 23,
+			"geo_shape": {
+				"coordinates": [
+					-0.56716,
+					44.83779
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 13,
+			"ident": 123,
+			"gid": 123,
+			"nom": "Porte de Bourgogne",
+			"type": "VLS",
+			"nbelec": "18",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56716,
+				44.83779
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "ba6981f8218aeb79db8cc6ee45bd49ec078be665",
+		"fields": {
+			"gml_id": "CI_VCUB_P.124",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83387,
+				-0.56271
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.56271,
+					44.83387
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 5,
+			"ident": 124,
+			"gid": 124,
+			"nom": "Parc des Sports",
+			"type": "VLS",
+			"nbelec": "7",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "7",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56271,
+				44.83387
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "de54518edde82cc35cbafca4adc1174dd8e55129",
+		"fields": {
+			"gml_id": "CI_VCUB_P.125",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83183,
+				-0.55966
+			],
+			"nbvelos": 21,
+			"geo_shape": {
+				"coordinates": [
+					-0.55966,
+					44.83183
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 125,
+			"gid": 125,
+			"nom": "Conservatoire",
+			"type": "VLS",
+			"nbelec": "13",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "8",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.55966,
+				44.83183
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d9e979156b88c7ceba233083ca5871ad9d437517",
+		"fields": {
+			"gml_id": "CI_VCUB_P.126",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.8267,
+				-0.54983
+			],
+			"nbvelos": 3,
+			"geo_shape": {
+				"coordinates": [
+					-0.54983,
+					44.8267
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 126,
+			"gid": 126,
+			"nom": "Quai de Paludate",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.54983,
+				44.8267
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "384302d56d2c52cc9ce0aa4ed452914e43eb2308",
+		"fields": {
+			"gml_id": "CI_VCUB_P.127",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.8263,
+				-0.55707
+			],
+			"nbvelos": 1,
+			"geo_shape": {
+				"coordinates": [
+					-0.55707,
+					44.8263
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 20,
+			"ident": 127,
+			"gid": 127,
+			"nom": "Gare St Jean",
+			"type": "VLS",
+			"nbelec": "0",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.55707,
+				44.8263
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "3be5ed47d81d47f4e846f2dbe233168c7a62bc05",
+		"fields": {
+			"gml_id": "CI_VCUB_P.128",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82218,
+				-0.56308
+			],
+			"nbvelos": 12,
+			"geo_shape": {
+				"coordinates": [
+					-0.56308,
+					44.82218
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 4,
+			"ident": 128,
+			"gid": 128,
+			"nom": "Sacre Coeur",
+			"type": "VLS",
+			"nbelec": "8",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56308,
+				44.82218
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "6110422c7e9009025f59e75ac2607ecdfc96a995",
+		"fields": {
+			"gml_id": "CI_VCUB_P.129",
+			"commune": "B\u00e8gles",
+			"geo_point_2d": [
+				44.81308,
+				-0.5642
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.5642,
+					44.81308
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 129,
+			"gid": 129,
+			"nom": "Barriere de Begles",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33039",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.5642,
+				44.81308
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "7beaf9dadbe81a9b733cf231c4d9f0608239bbd5",
+		"fields": {
+			"gml_id": "CI_VCUB_P.130",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.814476,
+				-0.570589
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.570589,
+					44.814476
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 11,
+			"ident": 130,
+			"gid": 130,
+			"nom": "Barriere de Toulouse",
+			"type": "VLS",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "7",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.570589,
+				44.814476
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "ebf624e149ad8ad84ef129ddd4573cef33c6b767",
+		"fields": {
+			"gml_id": "CI_VCUB_P.131",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.820258,
+				-0.572205
+			],
+			"nbvelos": 18,
+			"geo_shape": {
+				"coordinates": [
+					-0.572205,
+					44.820258
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 0,
+			"ident": 131,
+			"gid": 131,
+			"nom": "Nansouty",
+			"type": "VLS",
+			"nbelec": "9",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "9",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.572205,
+				44.820258
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "9952b1de10b9884240538f83096e1780d182a5e4",
+		"fields": {
+			"gml_id": "CI_VCUB_P.132",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82628,
+				-0.57248
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.57248,
+					44.82628
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 7,
+			"ident": 132,
+			"gid": 132,
+			"nom": "Cours de la Somme",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57248,
+				44.82628
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "9a4144c936738f26870b34053e57edb2163281ba",
+		"fields": {
+			"gml_id": "CI_VCUB_P.133",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82995,
+				-0.56812
+			],
+			"nbvelos": 0,
+			"geo_shape": {
+				"coordinates": [
+					-0.56812,
+					44.82995
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 20,
+			"ident": 133,
+			"gid": 133,
+			"nom": "Capucins",
+			"type": "VLS",
+			"nbelec": "0",
+			"etat": "MAINTENANCE",
+			"code_commune": "33063",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56812,
+				44.82995
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "fd4ed872246fe210c297219b09b6407928568f8a",
+		"fields": {
+			"gml_id": "CI_VCUB_P.134",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.832436,
+				-0.567069
+			],
+			"nbvelos": 13,
+			"geo_shape": {
+				"coordinates": [
+					-0.567069,
+					44.832436
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 7,
+			"ident": 134,
+			"gid": 134,
+			"nom": "Place du Maucaillou",
+			"type": "VLS",
+			"nbelec": "10",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.567069,
+				44.832436
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "7efddb6c534460dc6728765f1b2820a2cc66eb99",
+		"fields": {
+			"gml_id": "CI_VCUB_P.135",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.834797,
+				-0.564732
+			],
+			"nbvelos": 16,
+			"geo_shape": {
+				"coordinates": [
+					-0.564732,
+					44.834797
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 4,
+			"ident": 135,
+			"gid": 135,
+			"nom": "Place St Michel",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "10",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.564732,
+				44.834797
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "f24ce6500d02bb52043c0bf2fbfe89254874d7e3",
+		"fields": {
+			"gml_id": "CI_VCUB_P.136",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.83131,
+				-0.56139
+			],
+			"nbvelos": 17,
+			"geo_shape": {
+				"coordinates": [
+					-0.56139,
+					44.83131
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 1,
+			"ident": 136,
+			"gid": 136,
+			"nom": "Eglise Ste Croix",
+			"type": "VLS",
+			"nbelec": "8",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "9",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56139,
+				44.83131
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "7227cef0a190b06b75b307ea80a71c3e835ef3d7",
+		"fields": {
+			"gml_id": "CI_VCUB_P.137",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.828327,
+				-0.562299
+			],
+			"nbvelos": 13,
+			"geo_shape": {
+				"coordinates": [
+					-0.562299,
+					44.828327
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 1,
+			"ident": 137,
+			"gid": 137,
+			"nom": "Place Andre Meunier",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "9",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.562299,
+				44.828327
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "30ec294ac5a45b63a04862b5f7bb104857fb22ce",
+		"fields": {
+			"gml_id": "CI_VCUB_P.138",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82656,
+				-0.56455
+			],
+			"nbvelos": 4,
+			"geo_shape": {
+				"coordinates": [
+					-0.56455,
+					44.82656
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 16,
+			"ident": 138,
+			"gid": 138,
+			"nom": "Barbey",
+			"type": "VLS",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56455,
+				44.82656
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "b7030f53e7b8d9e35de78a8614895651fad5aa6a",
+		"fields": {
+			"gml_id": "CI_VCUB_P.139",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82405,
+				-0.57024
+			],
+			"nbvelos": 11,
+			"geo_shape": {
+				"coordinates": [
+					-0.57024,
+					44.82405
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 7,
+			"ident": 139,
+			"gid": 139,
+			"nom": "Lycee Bremontier",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "9",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57024,
+				44.82405
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "3e8cba336d8ae0f3e6604651d06f6b3a21b8d5fc",
+		"fields": {
+			"gml_id": "CI_VCUB_P.140",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.823079,
+				-0.600662
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.600662,
+					44.823079
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 11,
+			"ident": 140,
+			"gid": 140,
+			"nom": "Charles Perrens",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.600662,
+				44.823079
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "0b54ad00c943bc4eccc0b2c15a1080bc8c401948",
+		"fields": {
+			"gml_id": "CI_VCUB_P.141",
+			"commune": "Talence",
+			"geo_point_2d": [
+				44.818874,
+				-0.599919
+			],
+			"nbvelos": 11,
+			"geo_shape": {
+				"coordinates": [
+					-0.599919,
+					44.818874
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 141,
+			"gid": 141,
+			"nom": "Medoquine",
+			"type": "VLS",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33522",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.599919,
+				44.818874
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "f795d4c6520d1723cd4af57d6d6f1b3e7ba17e67",
+		"fields": {
+			"gml_id": "CI_VCUB_P.142",
+			"commune": "M\u00e9rignac",
+			"geo_point_2d": [
+				44.83947,
+				-0.629236
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.629236,
+					44.83947
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 15,
+			"ident": 142,
+			"gid": 142,
+			"nom": "Bourranville",
+			"type": "VLS",
+			"nbelec": "0",
+			"etat": "CONNECTEE",
+			"code_commune": "33281",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.629236,
+				44.83947
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "b519ebc9804e4537b4f97b6060267fabdcb75d62",
+		"fields": {
+			"gml_id": "CI_VCUB_P.143",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.85808,
+				-0.623341
+			],
+			"nbvelos": 4,
+			"geo_shape": {
+				"coordinates": [
+					-0.623341,
+					44.85808
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 143,
+			"gid": 143,
+			"nom": "Pins Francs",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.623341,
+				44.85808
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "c4ed8659e758d9f5ca0d09fdfcd913762fa5ba9e",
+		"fields": {
+			"gml_id": "CI_VCUB_P.144",
+			"commune": "Bruges",
+			"geo_point_2d": [
+				44.878494,
+				-0.58501
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.58501,
+					44.878494
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 11,
+			"ident": 144,
+			"gid": 144,
+			"nom": "Jean Moulin",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33075",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.58501,
+				44.878494
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "35b9da97c83618d1ea1adbb158e0371b16ad30f1",
+		"fields": {
+			"gml_id": "CI_VCUB_P.145",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.87904,
+				-0.57057
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.57057,
+					44.87904
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 145,
+			"gid": 145,
+			"nom": "Berges du Lac",
+			"type": "VLS+",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.57057,
+				44.87904
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "e88d7315063596b56b3d39819480416f4ff40dac",
+		"fields": {
+			"gml_id": "CI_VCUB_P.146",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.888924,
+				-0.567781
+			],
+			"nbvelos": 9,
+			"geo_shape": {
+				"coordinates": [
+					-0.567781,
+					44.888924
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 19,
+			"ident": 146,
+			"gid": 146,
+			"nom": "Palais des Congres",
+			"type": "VLS+",
+			"nbelec": "7",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.567781,
+				44.888924
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "0d647427b1eb19291d5b1420f9f3411ac24a1817",
+		"fields": {
+			"gml_id": "CI_VCUB_P.147",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.89297,
+				-0.566224
+			],
+			"nbvelos": 9,
+			"geo_shape": {
+				"coordinates": [
+					-0.566224,
+					44.89297
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 19,
+			"ident": 147,
+			"gid": 147,
+			"nom": "Parc des Expositions",
+			"type": "VLS+",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.566224,
+				44.89297
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "639bd7300c553813f02fb46a15969c1ef48f5e3c",
+		"fields": {
+			"gml_id": "CI_VCUB_P.148",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.885965,
+				-0.541447
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.541447,
+					44.885965
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 0,
+			"ident": 148,
+			"gid": 148,
+			"nom": "Berges de Garonne",
+			"type": "VLS+",
+			"nbelec": "6",
+			"etat": "MAINTENANCE",
+			"code_commune": "33063",
+			"nbclassiq": "8",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.541447,
+				44.885965
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "0d64bd6b00bcf764c4282c4df77cff38cb804431",
+		"fields": {
+			"gml_id": "CI_VCUB_P.149",
+			"commune": "Lormont",
+			"geo_point_2d": [
+				44.87889,
+				-0.51783
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.51783,
+					44.87889
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 149,
+			"gid": 149,
+			"nom": "Lauriers",
+			"type": "VLS+",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33249",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.51783,
+				44.87889
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "e677de980bc69f5187114526c848aca23059a1a9",
+		"fields": {
+			"gml_id": "CI_VCUB_P.150",
+			"commune": "Artigues-pr\u00e8s-Bordeaux",
+			"geo_point_2d": [
+				44.849293,
+				-0.496694
+			],
+			"nbvelos": 10,
+			"geo_shape": {
+				"coordinates": [
+					-0.496694,
+					44.849293
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 150,
+			"gid": 150,
+			"nom": "Feydeau",
+			"type": "VLS+",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33013",
+			"nbclassiq": "7",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.496694,
+				44.849293
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "a650b9d2a1d24c836f5948fa0c14712a1b5b6a06",
+		"fields": {
+			"gml_id": "CI_VCUB_P.151",
+			"commune": "Floirac",
+			"geo_point_2d": [
+				44.84563,
+				-0.510532
+			],
+			"nbvelos": 10,
+			"geo_shape": {
+				"coordinates": [
+					-0.510532,
+					44.84563
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 151,
+			"gid": 151,
+			"nom": "Dravemont",
+			"type": "VLS+",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33167",
+			"nbclassiq": "8",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.510532,
+				44.84563
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "9c9483c4501e97588005b846b3195581e670f8fa",
+		"fields": {
+			"gml_id": "CI_VCUB_P.152",
+			"commune": "Villenave-d'Ornon",
+			"geo_point_2d": [
+				44.79967,
+				-0.569953
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.569953,
+					44.79967
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 15,
+			"ident": 152,
+			"gid": 152,
+			"nom": "Hopital Robert Picque",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33550",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.569953,
+				44.79967
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "c38f4237bb949b28381926d449a09b935e64de0b",
+		"fields": {
+			"gml_id": "CI_VCUB_P.153",
+			"commune": "Villenave-d'Ornon",
+			"geo_point_2d": [
+				44.7923,
+				-0.581696
+			],
+			"nbvelos": 13,
+			"geo_shape": {
+				"coordinates": [
+					-0.581696,
+					44.7923
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 7,
+			"ident": 153,
+			"gid": 153,
+			"nom": "Parc Sourreil",
+			"type": "VLS+",
+			"nbelec": "7",
+			"etat": "CONNECTEE",
+			"code_commune": "33550",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.581696,
+				44.7923
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "561dc96ac7d372626b5ccf18cb519b1eae1daf5f",
+		"fields": {
+			"gml_id": "CI_VCUB_P.154",
+			"commune": "Talence",
+			"geo_point_2d": [
+				44.79209,
+				-0.591518
+			],
+			"nbvelos": 13,
+			"geo_shape": {
+				"coordinates": [
+					-0.591518,
+					44.79209
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 7,
+			"ident": 154,
+			"gid": 154,
+			"nom": "Thouars",
+			"type": "VLS+",
+			"nbelec": "11",
+			"etat": "CONNECTEE",
+			"code_commune": "33522",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.591518,
+				44.79209
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "1db0c7907b9bef700548fa4edaeecd6fdfc2b0bb",
+		"fields": {
+			"gml_id": "CI_VCUB_P.155",
+			"commune": "Gradignan",
+			"geo_point_2d": [
+				44.791485,
+				-0.613107
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.613107,
+					44.791485
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 18,
+			"ident": 155,
+			"gid": 155,
+			"nom": "Village 6 IUT",
+			"type": "VLS+",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33192",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.613107,
+				44.791485
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "4fb8a8a75ea1dc2f58c3438c6124cdb1240d4493",
+		"fields": {
+			"gml_id": "CI_VCUB_P.156",
+			"commune": "M\u00e9rignac",
+			"geo_point_2d": [
+				44.844305,
+				-0.658912
+			],
+			"nbvelos": 9,
+			"geo_shape": {
+				"coordinates": [
+					-0.658912,
+					44.844305
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 156,
+			"gid": 156,
+			"nom": "Hotel de Ville Merignac",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33281",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.658912,
+				44.844305
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "c25edd18c704d2095e54b3d86313c5441ef731dc",
+		"fields": {
+			"gml_id": "CI_VCUB_P.157",
+			"commune": "M\u00e9rignac",
+			"geo_point_2d": [
+				44.85682,
+				-0.659829
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.659829,
+					44.85682
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 157,
+			"gid": 157,
+			"nom": "Les Pins",
+			"type": "VLS+",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33281",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.659829,
+				44.85682
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "910ff68c7855050c8e82af80ccd93a6b0c2e90ec",
+		"fields": {
+			"gml_id": "CI_VCUB_P.158",
+			"commune": "Le Haillan",
+			"geo_point_2d": [
+				44.85858,
+				-0.668345
+			],
+			"nbvelos": 3,
+			"geo_shape": {
+				"coordinates": [
+					-0.668345,
+					44.85858
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 158,
+			"gid": 158,
+			"nom": "Le Haillan Rostand",
+			"type": "VLS+",
+			"nbelec": "0",
+			"etat": "CONNECTEE",
+			"code_commune": "33200",
+			"nbclassiq": "3",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.668345,
+				44.85858
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "7d7c2224b8dda39e59f1267ee77ce1cfa422929b",
+		"fields": {
+			"gml_id": "CI_VCUB_P.159",
+			"commune": "Bruges",
+			"geo_point_2d": [
+				44.897846,
+				-0.582511
+			],
+			"nbvelos": 4,
+			"geo_shape": {
+				"coordinates": [
+					-0.582511,
+					44.897846
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 20,
+			"ident": 159,
+			"gid": 159,
+			"nom": "Camping International",
+			"type": "VLS+",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33075",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.582511,
+				44.897846
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "98e84f2032bfc4326965db45d96489576ccaaa0f",
+		"fields": {
+			"gml_id": "CI_VCUB_P.160",
+			"commune": "Saint-Aubin-de-M\u00e9doc",
+			"geo_point_2d": [
+				44.912045,
+				-0.724596
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.724596,
+					44.912045
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 5,
+			"ident": 160,
+			"gid": 160,
+			"nom": "Eglise St Aubin",
+			"type": "VLS+",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33376",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.724596,
+				44.912045
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "ec7374aab955c6582b3047be3a1a7944c6db0342",
+		"fields": {
+			"gml_id": "CI_VCUB_P.161",
+			"commune": "Le Taillan-M\u00e9doc",
+			"geo_point_2d": [
+				44.904766,
+				-0.668951
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.668951,
+					44.904766
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 6,
+			"ident": 161,
+			"gid": 161,
+			"nom": "Le Taillan Mairie",
+			"type": "VLS+",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33519",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.668951,
+				44.904766
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "37c6d3381289e3ba0f156bd298335e73b9d45490",
+		"fields": {
+			"gml_id": "CI_VCUB_P.162",
+			"commune": "B\u00e8gles",
+			"geo_point_2d": [
+				44.798195,
+				-0.551517
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.551517,
+					44.798195
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 14,
+			"ident": 162,
+			"gid": 162,
+			"nom": "Gare de Begles",
+			"type": "VLS+",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33039",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.551517,
+				44.798195
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "7115500c80e738ec578df2193fb1372ee2c5d243",
+		"fields": {
+			"gml_id": "CI_VCUB_P.163",
+			"commune": "B\u00e8gles",
+			"geo_point_2d": [
+				44.785689,
+				-0.565509
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.565509,
+					44.785689
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 15,
+			"ident": 163,
+			"gid": 163,
+			"nom": "Lycee Vaclav Havel",
+			"type": "VLS+",
+			"nbelec": "5",
+			"etat": "DECONNECTEE",
+			"code_commune": "33039",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.565509,
+				44.785689
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "46fe7eeeca93c595d5766485d874207bf9207698",
+		"fields": {
+			"gml_id": "CI_VCUB_P.164",
+			"commune": "Pessac",
+			"geo_point_2d": [
+				44.787525,
+				-0.655167
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.655167,
+					44.787525
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 7,
+			"ident": 164,
+			"gid": 164,
+			"nom": "Hopital Haut Leveque",
+			"type": "VLS+",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33318",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.655167,
+				44.787525
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "c6350ba5b6b7db5b056e640b87d22d2adbeec220",
+		"fields": {
+			"gml_id": "CI_VCUB_P.165",
+			"commune": "Pessac",
+			"geo_point_2d": [
+				44.79828,
+				-0.663053
+			],
+			"nbvelos": 12,
+			"geo_shape": {
+				"coordinates": [
+					-0.663053,
+					44.79828
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 8,
+			"ident": 165,
+			"gid": 165,
+			"nom": "France Alouette",
+			"type": "VLS+",
+			"nbelec": "7",
+			"etat": "CONNECTEE",
+			"code_commune": "33318",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.663053,
+				44.79828
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "deba76ea26a79ed5cbcbabbe67daab8e373f3d7a",
+		"fields": {
+			"gml_id": "CI_VCUB_P.166",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.88192,
+				-0.565221
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.565221,
+					44.88192
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 15,
+			"ident": 166,
+			"gid": 166,
+			"nom": "Centre commercial du Lac",
+			"type": "VLS+",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.565221,
+				44.88192
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "043d679c31eae57064d8b7e5b85e55888b2de622",
+		"fields": {
+			"gml_id": "CI_VCUB_P.167",
+			"commune": "Saint-M\u00e9dard-en-Jalles",
+			"geo_point_2d": [
+				44.884285,
+				-0.690917
+			],
+			"nbvelos": 9,
+			"geo_shape": {
+				"coordinates": [
+					-0.690917,
+					44.884285
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 10,
+			"ident": 167,
+			"gid": 167,
+			"nom": "Centre Commercial St Medard",
+			"type": "VLS+",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33449",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.690917,
+				44.884285
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "86bb3f6060683680d0b80079e966b42cb2eccde9",
+		"fields": {
+			"gml_id": "CI_VCUB_P.168",
+			"commune": "Blanquefort",
+			"geo_point_2d": [
+				44.90906,
+				-0.630657
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.630657,
+					44.90906
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 15,
+			"ident": 168,
+			"gid": 168,
+			"nom": "Mairie de Blanquefort",
+			"type": "VLS+",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33056",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.630657,
+				44.90906
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "1cdd7d70b2765fad5e184bc1b570db479e0eda05",
+		"fields": {
+			"gml_id": "CI_VCUB_P.169",
+			"commune": "Bruges",
+			"geo_point_2d": [
+				44.872397,
+				-0.59081
+			],
+			"nbvelos": 3,
+			"geo_shape": {
+				"coordinates": [
+					-0.59081,
+					44.872397
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 17,
+			"ident": 169,
+			"gid": 169,
+			"nom": "Bruges La Vache",
+			"type": "VLS+",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33075",
+			"nbclassiq": "0",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.59081,
+				44.872397
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "c7f5b536b4a7abfb67d4081f7aa9a2f762225060",
+		"fields": {
+			"gml_id": "CI_VCUB_P.170",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.866152,
+				-0.560843
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.560843,
+					44.866152
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 6,
+			"ident": 170,
+			"gid": 170,
+			"nom": "Lucien Faure",
+			"type": "VLS",
+			"nbelec": "7",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "7",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.560843,
+				44.866152
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "237ad833111432e19a6c9cd5a840496192d50fff",
+		"fields": {
+			"gml_id": "CI_VCUB_P.171",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.82993,
+				-0.581409
+			],
+			"nbvelos": 7,
+			"geo_shape": {
+				"coordinates": [
+					-0.581409,
+					44.82993
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 11,
+			"ident": 171,
+			"gid": 171,
+			"nom": "Place Amedee Larrieu",
+			"type": "VLS",
+			"nbelec": "2",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.581409,
+				44.82993
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "b08b4991795158bf7dc73f3beb580d333fd78214",
+		"fields": {
+			"gml_id": "CI_VCUB_P.172",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.86178,
+				-0.551499
+			],
+			"nbvelos": 20,
+			"geo_shape": {
+				"coordinates": [
+					-0.551499,
+					44.86178
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 8,
+			"ident": 172,
+			"gid": 172,
+			"nom": "La Cite du Vin",
+			"type": "VLS",
+			"nbelec": "7",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "13",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.551499,
+				44.86178
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "d185b4925596b15e2244a5d18831772fc54cb0ae",
+		"fields": {
+			"gml_id": "CI_VCUB_P.173",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.86749,
+				-0.5481
+			],
+			"nbvelos": 15,
+			"geo_shape": {
+				"coordinates": [
+					-0.5481,
+					44.86749
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 5,
+			"ident": 173,
+			"gid": 173,
+			"nom": "Rue Achard",
+			"type": "VLS",
+			"nbelec": "5",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "10",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.5481,
+				44.86749
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "5a6cf6a52119f854ae851a8dbbf1a4b66d920184",
+		"fields": {
+			"gml_id": "CI_VCUB_P.174",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.84918,
+				-0.562409
+			],
+			"nbvelos": 12,
+			"geo_shape": {
+				"coordinates": [
+					-0.562409,
+					44.84918
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 30,
+			"ident": 174,
+			"gid": 174,
+			"nom": "Darwin",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "6",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.562409,
+				44.84918
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "5845f7341c2b73b6402c373ba3937151beebed38",
+		"fields": {
+			"gml_id": "CI_VCUB_P.175",
+			"commune": "Floirac",
+			"geo_point_2d": [
+				44.826054,
+				-0.531631
+			],
+			"nbvelos": 5,
+			"geo_shape": {
+				"coordinates": [
+					-0.531631,
+					44.826054
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 15,
+			"ident": 175,
+			"gid": 175,
+			"nom": "Arena",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33167",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.531631,
+				44.826054
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "74913152056df6562c143a720088d2f2ff32c326",
+		"fields": {
+			"gml_id": "CI_VCUB_P.176",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.869064,
+				-0.556399
+			],
+			"nbvelos": 3,
+			"geo_shape": {
+				"coordinates": [
+					-0.556399,
+					44.869064
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 17,
+			"ident": 176,
+			"gid": 176,
+			"nom": "Musee Mer Marine",
+			"type": "VLS",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.556399,
+				44.869064
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "ed68f29f2a6a7eae22ce46704ce5ab0af81bfe37",
+		"fields": {
+			"gml_id": "CI_VCUB_P.177",
+			"commune": "B\u00e8gles",
+			"geo_point_2d": [
+				44.813274,
+				-0.55517
+			],
+			"nbvelos": 13,
+			"geo_shape": {
+				"coordinates": [
+					-0.55517,
+					44.813274
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 11,
+			"ident": 177,
+			"gid": 177,
+			"nom": "Cite numerique",
+			"type": "VLS",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33039",
+			"nbclassiq": "9",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.55517,
+				44.813274
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "9ce18ba22e58cca6f35d840dd1a42bb80e40298b",
+		"fields": {
+			"gml_id": "CI_VCUB_P.178",
+			"commune": "Cenon",
+			"geo_point_2d": [
+				44.854004,
+				-0.537826
+			],
+			"nbvelos": 14,
+			"geo_shape": {
+				"coordinates": [
+					-0.537826,
+					44.854004
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 6,
+			"ident": 178,
+			"gid": 178,
+			"nom": "Jean Jaures",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33119",
+			"nbclassiq": "8",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.537826,
+				44.854004
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "53ecc06890f8a3ac35aa3522b45b464ebdf35215",
+		"fields": {
+			"gml_id": "CI_VCUB_P.179",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.8474,
+				-0.587664
+			],
+			"nbvelos": 10,
+			"geo_shape": {
+				"coordinates": [
+					-0.587664,
+					44.8474
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 13,
+			"ident": 179,
+			"gid": 179,
+			"nom": "Rue Paulin",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "7",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.587664,
+				44.8474
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "4869edb3a10243478ba0a6ec39826757af5ccb99",
+		"fields": {
+			"gml_id": "CI_VCUB_P.180",
+			"commune": "Parempuyre",
+			"geo_point_2d": [
+				44.947134,
+				-0.605732
+			],
+			"nbvelos": 9,
+			"geo_shape": {
+				"coordinates": [
+					-0.605732,
+					44.947134
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 11,
+			"ident": 180,
+			"gid": 180,
+			"nom": "L'Art Y Show",
+			"type": "VLS+",
+			"nbelec": "8",
+			"etat": "CONNECTEE",
+			"code_commune": "33312",
+			"nbclassiq": "1",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.605732,
+				44.947134
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "f2a75984cc9b7def49475919907e55d5fe43490b",
+		"fields": {
+			"gml_id": "CI_VCUB_P.181",
+			"commune": "Le Bouscat",
+			"geo_point_2d": [
+				44.866214,
+				-0.60529
+			],
+			"nbvelos": 12,
+			"geo_shape": {
+				"coordinates": [
+					-0.60529,
+					44.866214
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 8,
+			"ident": 181,
+			"gid": 181,
+			"nom": "Mairie du Bouscat",
+			"type": "VLS+",
+			"nbelec": "10",
+			"etat": "CONNECTEE",
+			"code_commune": "33069",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.60529,
+				44.866214
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "4200ee93c5966c847acb4a6088daac5373131bed",
+		"fields": {
+			"gml_id": "CI_VCUB_P.182",
+			"commune": "Le Bouscat",
+			"geo_point_2d": [
+				44.873805,
+				-0.629383
+			],
+			"nbvelos": 12,
+			"geo_shape": {
+				"coordinates": [
+					-0.629383,
+					44.873805
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 8,
+			"ident": 182,
+			"gid": 182,
+			"nom": "Hippodrome",
+			"type": "VLS+",
+			"nbelec": "10",
+			"etat": "CONNECTEE",
+			"code_commune": "33069",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.629383,
+				44.873805
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "8b908e841b0737f73ba358e55ef7b8e1c5871e79",
+		"fields": {
+			"gml_id": "CI_VCUB_P.183",
+			"commune": "Eysines",
+			"geo_point_2d": [
+				44.892104,
+				-0.667966
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.667966,
+					44.892104
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 5,
+			"ident": 183,
+			"gid": 183,
+			"nom": "Cantinolle",
+			"type": "VLS+",
+			"nbelec": "4",
+			"etat": "CONNECTEE",
+			"code_commune": "33162",
+			"nbclassiq": "4",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.667966,
+				44.892104
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "c8902a8f7186d5a2051a074e75fe9c4e6cd90d22",
+		"fields": {
+			"gml_id": "CI_VCUB_P.184",
+			"commune": "Lormont",
+			"geo_point_2d": [
+				44.877905,
+				-0.534293
+			],
+			"nbvelos": 6,
+			"geo_shape": {
+				"coordinates": [
+					-0.534293,
+					44.877905
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 11,
+			"ident": 184,
+			"gid": 184,
+			"nom": "Lormont bas",
+			"type": "VLS+",
+			"nbelec": "1",
+			"etat": "CONNECTEE",
+			"code_commune": "33249",
+			"nbclassiq": "5",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.534293,
+				44.877905
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "f3d9a2fff94d09cfd90e4e2d7b7bdbb6f27714bc",
+		"fields": {
+			"gml_id": "CI_VCUB_P.185",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.869373,
+				-0.56634
+			],
+			"nbvelos": 8,
+			"geo_shape": {
+				"coordinates": [
+					-0.56634,
+					44.869373
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 12,
+			"ident": 185,
+			"gid": 185,
+			"nom": "Place Latule",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "2",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.56634,
+				44.869373
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "795708766303a100ef6a0355f84d1aa6e27a5bd2",
+		"fields": {
+			"gml_id": "CI_VCUB_P.186",
+			"commune": "Talence",
+			"geo_point_2d": [
+				44.807389,
+				-0.574862
+			],
+			"nbvelos": 11,
+			"geo_shape": {
+				"coordinates": [
+					-0.574862,
+					44.807389
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 9,
+			"ident": 186,
+			"gid": 186,
+			"nom": "Bagatelle",
+			"type": "VLS",
+			"nbelec": "3",
+			"etat": "CONNECTEE",
+			"code_commune": "33522",
+			"nbclassiq": "8",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.574862,
+				44.807389
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	},
+	{
+		"datasetid": "ci_vcub_p",
+		"recordid": "9a11c2df73900e25f7d94d5a08f1de603a012686",
+		"fields": {
+			"gml_id": "CI_VCUB_P.251",
+			"commune": "Bordeaux",
+			"geo_point_2d": [
+				44.823285,
+				-0.554574
+			],
+			"nbvelos": 19,
+			"geo_shape": {
+				"coordinates": [
+					-0.554574,
+					44.823285
+				],
+				"type": "Point"
+			},
+			"cdate": "2011-01-01T01:00:00+01:00",
+			"mdate": "2022-11-24T23:54:44+01:00",
+			"nbplaces": 21,
+			"ident": 251,
+			"gid": 251,
+			"nom": "Belcier Gare",
+			"type": "VLS",
+			"nbelec": "6",
+			"etat": "CONNECTEE",
+			"code_commune": "33063",
+			"nbclassiq": "13",
+			"geom_o": "0"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-0.554574,
+				44.823285
+			]
+		},
+		"record_timestamp": "2022-11-24T22:57:02.247+01:00"
+	}
+]
