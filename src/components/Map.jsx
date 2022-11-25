@@ -47,7 +47,6 @@ function Map() {
   const [stations, setStations] = useState([]);
   const [selectedPoi, setSelectedPoi] = useState(null);
 
-
   const [poiDisplayed, setPoiDisplayed] = useState({
     events: false,
     stations: false,
@@ -109,13 +108,6 @@ function Map() {
     window.location.reload(false);
   }
 
-  const handleChange = (e) => {
-    setLocation({
-      ...location,
-      [e.target.name]: e.target.value,
-    });
-  };
-
   const calculateRoute = async () => {
     if (originRef.current.value === "" || destinationRef.current.value === "") {
       return;
@@ -164,8 +156,7 @@ function Map() {
           mapContainerStyle={{
             height: "70vh",
             width: "100%",
-          }}
-        >
+          }}>
           {events.map((poi) => (
             <MarkerF
               key={poi.recordid}
@@ -219,8 +210,7 @@ function Map() {
               position={{
                 lat: selectedPoi.lat,
                 lng: selectedPoi.lng,
-              }}
-            >
+              }}>
               <InfoWindoDetails poi={selectedPoi} />
             </InfoWindow>
           )}
@@ -256,15 +246,13 @@ function Map() {
               <button
                 className="w-10 h-10 mx-1 bg-pink-500 rounded-2xl text"
                 type="submit"
-                onClick={() => calculateRoute()}
-              >
+                onClick={() => calculateRoute()}>
                 GO
               </button>
               <button
                 className="w-10 h-10 mx-1 bg-pink-500 rounded-2xl text"
                 type="submit"
-                onClick={() => clearRoute()}
-              >
+                onClick={() => clearRoute()}>
                 ✖️
               </button>
             </div>
@@ -279,8 +267,7 @@ function Map() {
             onClick={() => {
               map.panTo(center);
               map.setZoom(12);
-            }}
-          >
+            }}>
             🌐
           </button>
         </div>
