@@ -38,7 +38,9 @@ function Map() {
   const [directionsResponse, setDirectionsResponse] = useState(null);
   const [distance, setDistance] = useState("");
   const [duration, setDuration] = useState("");
-  const [data, setData] = useState([]);
+
+  const [searchResult, setSearchResult] = useState("");
+  const autocompleteRef = useRef();
   /** @type React.MutableRefObject<HTMLInputElement> */
   const originRef = useRef();
   /** @type React.MutableRefObject<HTMLInputElement> */
@@ -87,6 +89,7 @@ function Map() {
   if (!isLoaded || !events || !stations || !velos) return <div>Loading...</div>;
 
   const handleChangeInput = (e) => {
+    console.log(e.target.value);
     setLocation({
       ...location,
       [e.target.name]: e.target.value,
@@ -114,7 +117,41 @@ function Map() {
     setDuration("");
     originRef.current.value = "";
     destinationRef.current.value = "";
-    window.location.reload(false);
+    () => calculateRoute();
+  }
+
+  function onLoad(autocomplete) {
+    console.log(autocomplete);
+    setSearchResult(autocomplete);
+  }
+  function onDestinationChanged() {
+    if (searchResult != null) {
+      //variable to store the result
+      const place = searchResult.getPlace();
+      //variable to store the name from place details result
+      const name = place.name;
+      setLocation((state) => ({
+        ...state,
+        destination: name,
+      }));
+    } else {
+      alert("Please enter text");
+    }
+  }
+
+  function onOriginChanged() {
+    if (searchResult != null) {
+      //variable to store the result
+      const place = searchResult.getPlace();
+      //variable to store the name from place details result
+      const name = place.name;
+      setLocation((state) => ({
+        ...state,
+        origin: name,
+      }));
+    } else {
+      alert("Please enter text");
+    }
   }
 
   const addMarker = (position) => {
@@ -161,8 +198,7 @@ function Map() {
           mapContainerStyle={{
             height: "70vh",
             width: "100%",
-          }}
-        >
+          }}>
           {poiDisplayed.events &&
             events.map((poi) => (
               <MarkerF
@@ -299,8 +335,7 @@ function Map() {
               position={{
                 lat: selectedPoi.lat,
                 lng: selectedPoi.lng,
-              }}
-            >
+              }}>
               <InfoWindoDetails poi={selectedPoi} />
             </InfoWindow>
           )}
@@ -312,15 +347,16 @@ function Map() {
         <div>
           <div className="w-full  h-30 flex flex-col bg-slate-300 rounded-xl p-4">
             <div className="h-15 flex justify-around">
-              <Autocomplete className="w-2/5 mx-1">
+              <Autocomplete
+                onPlaceChanged={onOriginChanged}
+                onLoad={onLoad}
+                className="w-2/5 mx-1">
                 <input
                   className="h-10 w-full rounded-md"
                   type="text"
                   name="origin"
                   ref={originRef}
                   placeholder="origin"
-                  onChange={(e) => handleChangeInput(e)}
-                  value={location.origin}
                 />
               </Autocomplete>
               <Autocomplete className="w-2/5 mx-1">
@@ -330,22 +366,19 @@ function Map() {
                   name="destination"
                   ref={destinationRef}
                   placeholder="destination"
-                  onChange={(e) => handleChangeInput(e)}
-                  value={location.destination}
+                  onPlaceChanged={onDestinationChanged}
                 />
               </Autocomplete>
               <button
                 className="w-10 h-10 mx-1 bg-pink-500 rounded-2xl text"
                 type="submit"
-                onClick={() => calculateRoute()}
-              >
+                onClick={() => calculateRoute()}>
                 GO
               </button>
               <button
                 className="w-10 h-10 mx-1 bg-pink-500 rounded-2xl text"
                 type="submit"
-                onClick={() => clearRoute()}
-              >
+                onClick={() => clearRoute()}>
                 ✖️
               </button>
             </div>
@@ -360,8 +393,7 @@ function Map() {
             onClick={() => {
               map.panTo(center);
               map.setZoom(12);
-            }}
-          >
+            }}>
             🌐
           </button>
         </div>
