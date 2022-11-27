@@ -1,11 +1,11 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
+import Map from './components/Map';
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className=" bg-gradient-to-r from-slate-400  via-slate-300 to-slate-400 h-full w-screen">
+      <Map />
+    </div>
+  );
 }
 
 export default App;
